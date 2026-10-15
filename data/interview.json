@@ -1,0 +1,756 @@
+{
+ "topics": [
+  {
+   "id": "interview_ssw",
+   "kind": "interview",
+   "title": {
+    "en": "SSW Caregiver visa interview",
+    "ne": "SSW केयरगिभर भिसा अन्तर्वार्ता",
+    "ja": "特定技能（介護）ビザ面接"
+   },
+   "summary": {
+    "en": "Mock visa / immigration interview for the Specified Skilled Worker (caregiving) track. Answer in Japanese if you can.",
+    "ne": "विशिष्ट सीपयुक्त कामदार (केयरगिभिङ) को नक्कली भिसा अन्तर्वार्ता। सकेसम्म जापानीमा उत्तर दिनुहोस्।",
+    "ja": "特定技能（介護）の模擬ビザ面接です。できるだけ日本語で答えましょう。"
+   },
+   "vocab": [
+    {
+     "jp": "申します",
+     "reading": "もうします",
+     "en": "(humble) my name is",
+     "ne": "मेरो नाम (विनम्र)"
+    },
+    {
+     "jp": "出身",
+     "reading": "しゅっしん",
+     "en": "hometown / origin",
+     "ne": "जन्मस्थान"
+    },
+    {
+     "jp": "夜勤",
+     "reading": "やきん",
+     "en": "night shift",
+     "ne": "राति पालो"
+    },
+    {
+     "jp": "介護福祉士",
+     "reading": "かいごふくしし",
+     "en": "certified care worker",
+     "ne": "प्रमाणित केयर वर्कर"
+    }
+   ],
+   "questions": [
+    {
+     "id": "iv1",
+     "skill": "self_intro",
+     "difficulty": 1,
+     "prompt": {
+      "en": "自己紹介をしてください。  (Please introduce yourself.)",
+      "ne": "自己紹介をしてください。  (आफ्नो परिचय दिनुहोस्।)",
+      "ja": "自己紹介をしてください。"
+     },
+     "keywords": [
+      [
+       "name",
+       "名前",
+       "申します",
+       "です",
+       "my name",
+       "i am",
+       "नाम",
+       "私",
+       "わたし"
+      ],
+      [
+       "nepal",
+       "ネパール",
+       "नेपाल",
+       "from",
+       "出身",
+       "来ました"
+      ]
+     ],
+     "model_answer": {
+      "en": "はじめまして。ラムと申します。ネパールから来ました。よろしくお願いします。  (Nice to meet you. My name is Ram. I am from Nepal. Yoroshiku onegaishimasu.)",
+      "ne": "はじめまして。ラムと申します。ネパールから来ました。よろしくお願いします。  (Nice to meet you. My name is Ram. I am from Nepal. Yoroshiku onegaishimasu.)",
+      "ja": "はじめまして。ラムと申します。ネパールから来ました。よろしくお願いします。"
+     },
+     "probe": {
+      "en": "Add one sentence about your caregiving training.",
+      "ne": "आफ्नो केयरगिभिङ तालिमबारे एक वाक्य थप्नुहोस्।",
+      "ja": "介護の勉強について一文加えてください。"
+     }
+    },
+    {
+     "id": "iv2",
+     "skill": "motivation",
+     "difficulty": 2,
+     "prompt": {
+      "en": "なぜ日本で介護の仕事をしたいですか。  (Why do you want to do caregiving work in Japan?)",
+      "ne": "なぜ日本で介護の仕事をしたいですか。  (तपाईं किन जापानमा केयरगिभिङ काम गर्न चाहनुहुन्छ?)",
+      "ja": "なぜ日本で介護の仕事をしたいですか。"
+     },
+     "keywords": [
+      [
+       "help",
+       "care",
+       "elderly",
+       "old people",
+       "お年寄り",
+       "高齢者",
+       "役に立",
+       "手伝",
+       "सेवा",
+       "मद्दत",
+       "वृद्ध"
+      ],
+      [
+       "learn",
+       "skill",
+       "technology",
+       "experience",
+       "学",
+       "技術",
+       "経験",
+       "सिक",
+       "अनुभव"
+      ]
+     ],
+     "model_answer": {
+      "en": "お年寄りの役に立ちたいからです。日本の進んだ介護の技術も学びたいです。  (Because I want to help elderly people, and I want to learn Japan's advanced care skills.)",
+      "ne": "お年寄りの役に立ちたいからです。日本の進んだ介護の技術も学びたいです。  (Because I want to help elderly people, and I want to learn Japan's advanced care skills.)",
+      "ja": "お年寄りの役に立ちたいからです。日本の進んだ介護の技術も学びたいです。"
+     },
+     "probe": {
+      "en": "Give a personal reason, for example a family experience.",
+      "ne": "व्यक्तिगत कारण दिनुहोस्, जस्तै पारिवारिक अनुभव।",
+      "ja": "家族の経験など、自分の理由を話してください。"
+     }
+    },
+    {
+     "id": "iv3",
+     "skill": "japanese",
+     "difficulty": 1,
+     "prompt": {
+      "en": "日本語をどのくらい勉強しましたか。  (How long have you studied Japanese?)",
+      "ne": "日本語をどのくらい勉強しましたか。  (तपाईंले कति समय जापानी पढ्नुभयो?)",
+      "ja": "日本語をどのくらい勉強しましたか。"
+     },
+     "keywords": [
+      [
+       "year",
+       "month",
+       "年",
+       "か月",
+       "ヶ月",
+       "カ月",
+       "वर्ष",
+       "महिना",
+       "week"
+      ],
+      [
+       "study",
+       "school",
+       "learn",
+       "勉強",
+       "学校",
+       "n5",
+       "n4",
+       "jlpt",
+       "jft",
+       "पढ",
+       "सिक"
+      ]
+     ],
+     "model_answer": {
+      "en": "一年間、日本語学校で勉強しました。N4に合格しました。  (I studied at a Japanese language school for one year and passed N4.)",
+      "ne": "一年間、日本語学校で勉強しました。N4に合格しました。  (I studied at a Japanese language school for one year and passed N4.)",
+      "ja": "一年間、日本語学校で勉強しました。N4に合格しました。"
+     },
+     "probe": {
+      "en": "How do you keep studying every day?",
+      "ne": "हरेक दिन कसरी पढाइ जारी राख्नुहुन्छ?",
+      "ja": "毎日どのように勉強を続けていますか？"
+     }
+    },
+    {
+     "id": "iv4",
+     "skill": "scenario",
+     "difficulty": 3,
+     "prompt": {
+      "en": "利用者さんが転倒しました。あなたはどうしますか。  (A resident has fallen. What do you do?)",
+      "ne": "利用者さんが転倒しました。あなたはどうしますか。  (बासिन्दा लड्नुभयो। तपाईं के गर्नुहुन्छ?)",
+      "ja": "利用者さんが転倒しました。あなたはどうしますか。"
+     },
+     "keywords": [
+      [
+       "call",
+       "nurse",
+       "report",
+       "119",
+       "staff",
+       "呼",
+       "報告",
+       "看護",
+       "नर्स"
+      ],
+      [
+       "check",
+       "don't move",
+       "do not move",
+       "conscious",
+       "breathing",
+       "injury",
+       "確認",
+       "動かさ",
+       "けが",
+       "जाँच"
+      ]
+     ],
+     "model_answer": {
+      "en": "すぐに声をかけて意識とけがを確認し、動かさずに看護師を呼んで報告します。  (I call out, check consciousness and injuries, do not move them, and call and report to the nurse.)",
+      "ne": "すぐに声をかけて意識とけがを確認し、動かさずに看護師を呼んで報告します。  (I call out, check consciousness and injuries, do not move them, and call and report to the nurse.)",
+      "ja": "すぐに声をかけて意識とけがを確認し、動かさずに看護師を呼んで報告します。"
+     },
+     "probe": {
+      "en": "What do you write in the incident report afterwards?",
+      "ne": "त्यसपछि घटना रिपोर्टमा के लेख्नुहुन्छ?",
+      "ja": "その後、事故報告書に何を書きますか？"
+     }
+    },
+    {
+     "id": "iv5",
+     "skill": "culture",
+     "difficulty": 2,
+     "prompt": {
+      "en": "日本の職場で大切なことは何だと思いますか。  (What do you think is important in a Japanese workplace?)",
+      "ne": "日本の職場で大切なことは何だと思いますか。  (जापानी कार्यस्थलमा के महत्त्वपूर्ण छ जस्तो लाग्छ?)",
+      "ja": "日本の職場で大切なことは何だと思いますか。"
+     },
+     "keywords": [
+      [
+       "punctual",
+       "on time",
+       "time",
+       "時間",
+       "遅刻",
+       "समय"
+      ],
+      [
+       "teamwork",
+       "team",
+       "report",
+       "ほうれんそう",
+       "報告",
+       "協力",
+       "rules",
+       "ルール",
+       "greeting",
+       "挨拶",
+       "あいさつ",
+       "टिम"
+      ]
+     ],
+     "model_answer": {
+      "en": "時間を守ることと、ほうれんそう（報告・連絡・相談）でチームと協力することです。  (Being on time, and working with the team through ho-ren-so (report, contact, consult).)",
+      "ne": "時間を守ることと、ほうれんそう（報告・連絡・相談）でチームと協力することです。  (Being on time, and working with the team through ho-ren-so (report, contact, consult).)",
+      "ja": "時間を守ることと、ほうれんそう（報告・連絡・相談）でチームと協力することです。"
+     },
+     "probe": {
+      "en": "Give an example of ほうれんそう from your training.",
+      "ne": "आफ्नो तालिमबाट ほうれんそう को उदाहरण दिनुहोस्।",
+      "ja": "研修での「ほうれんそう」の例を話してください。"
+     }
+    },
+    {
+     "id": "iv6",
+     "skill": "motivation",
+     "difficulty": 2,
+     "prompt": {
+      "en": "将来の目標は何ですか。  (What is your future goal?)",
+      "ne": "将来の目標は何ですか。  (तपाईंको भविष्यको लक्ष्य के हो?)",
+      "ja": "将来の目標は何ですか。"
+     },
+     "keywords": [
+      [
+       "goal",
+       "future",
+       "目標",
+       "将来",
+       "लक्ष्य",
+       "plan",
+       "want",
+       "なりたい",
+       "介護福祉士",
+       "certified",
+       "exam",
+       "資格"
+      ]
+     ],
+     "model_answer": {
+      "en": "介護福祉士の資格を取って、長く日本で働きたいです。  (I want to pass the certified care worker exam and work in Japan for a long time.)",
+      "ne": "介護福祉士の資格を取って、長く日本で働きたいです。  (I want to pass the certified care worker exam and work in Japan for a long time.)",
+      "ja": "介護福祉士の資格を取って、長く日本で働きたいです。"
+     },
+     "probe": {
+      "en": "What steps will you take in your first year?",
+      "ne": "पहिलो वर्षमा कुन कदम चाल्नुहुन्छ?",
+      "ja": "一年目にどんなことをしますか？"
+     }
+    },
+    {
+     "id": "iv7",
+     "skill": "scenario",
+     "difficulty": 2,
+     "prompt": {
+      "en": "利用者さんが食事を食べたくないと言っています。どうしますか。  (A resident says they don't want to eat. What do you do?)",
+      "ne": "利用者さんが食事を食べたくないと言っています。どうしますか。  (बासिन्दा खाना खान चाहँदैनन्। के गर्नुहुन्छ?)",
+      "ja": "利用者さんが食事を食べたくないと言っています。どうしますか。"
+     },
+     "keywords": [
+      [
+       "ask",
+       "why",
+       "reason",
+       "listen",
+       "理由",
+       "聞",
+       "कारण",
+       "सोध"
+      ],
+      [
+       "report",
+       "nurse",
+       "record",
+       "報告",
+       "記録",
+       "看護",
+       "नर्स"
+      ]
+     ],
+     "model_answer": {
+      "en": "理由をやさしく聞いて、記録し、看護師に報告します。  (I gently ask the reason, record it, and report to the nurse.)",
+      "ne": "理由をやさしく聞いて、記録し、看護師に報告します。  (I gently ask the reason, record it, and report to the nurse.)",
+      "ja": "理由をやさしく聞いて、記録し、看護師に報告します。"
+     },
+     "probe": {
+      "en": "What could be a medical reason for not eating?",
+      "ne": "खाना नखानुको चिकित्सकीय कारण के हुन सक्छ?",
+      "ja": "食べない医学的な理由には何がありますか？"
+     }
+    },
+    {
+     "id": "iv8",
+     "skill": "culture",
+     "difficulty": 1,
+     "prompt": {
+      "en": "日本の生活で心配なことはありますか。  (Do you have any worries about living in Japan?)",
+      "ne": "日本の生活で心配なことはありますか。  (जापानमा बस्दा केही चिन्ता छ?)",
+      "ja": "日本の生活で心配なことはありますか。"
+     },
+     "keywords": [
+      [
+       "language",
+       "japanese",
+       "culture",
+       "food",
+       "weather",
+       "winter",
+       "family",
+       "言葉",
+       "文化",
+       "食べ物",
+       "家族",
+       "寒",
+       "भाषा",
+       "संस्कृति",
+       "परिवार"
+      ],
+      [
+       "try",
+       "study",
+       "learn",
+       "adapt",
+       "overcome",
+       "頑張",
+       "がんば",
+       "勉強",
+       "慣れ",
+       "सिक",
+       "प्रयास"
+      ]
+     ],
+     "model_answer": {
+      "en": "冬の寒さが少し心配ですが、早く慣れるように頑張ります。  (I am a little worried about the cold winter, but I will work hard to get used to it.)",
+      "ne": "冬の寒さが少し心配ですが、早く慣れるように頑張ります。  (I am a little worried about the cold winter, but I will work hard to get used to it.)",
+      "ja": "冬の寒さが少し心配ですが、早く慣れるように頑張ります。"
+     },
+     "probe": {
+      "en": "Who would you ask for help if you had a problem?",
+      "ne": "समस्या भए कससँग सहयोग माग्नुहुन्छ?",
+      "ja": "困ったとき、だれに相談しますか？"
+     }
+    },
+    {
+     "id": "iv9",
+     "skill": "japanese",
+     "difficulty": 1,
+     "prompt": {
+      "en": "趣味は何ですか。  (What is your hobby?)",
+      "ne": "趣味は何ですか。  (तपाईंको शोख के हो?)",
+      "ja": "趣味は何ですか。"
+     },
+     "keywords": [
+      [
+       "hobby",
+       "趣味",
+       "like",
+       "好き",
+       "शोख",
+       "रुचि",
+       "music",
+       "cooking",
+       "reading",
+       "football",
+       "料理",
+       "音楽",
+       "読書",
+       "サッカー",
+       "散歩"
+      ]
+     ],
+     "model_answer": {
+      "en": "趣味は料理です。ネパール料理を作るのが好きです。  (My hobby is cooking. I like making Nepali food.)",
+      "ne": "趣味は料理です。ネパール料理を作るのが好きです。  (My hobby is cooking. I like making Nepali food.)",
+      "ja": "趣味は料理です。ネパール料理を作るのが好きです。"
+     },
+     "probe": {
+      "en": "How could your hobby help residents?",
+      "ne": "तपाईंको शोखले बासिन्दालाई कसरी मद्दत गर्न सक्छ?",
+      "ja": "あなたの趣味は、利用者さんのためにどう役立ちますか？"
+     }
+    },
+    {
+     "id": "iv10",
+     "skill": "scenario",
+     "difficulty": 3,
+     "prompt": {
+      "en": "夜勤のとき、利用者さんがずっと起きています。どうしますか。  (On a night shift, a resident stays awake. What do you do?)",
+      "ne": "夜勤のとき、利用者さんがずっと起きています。どうしますか。  (राति पालोमा बासिन्दा सुत्दै सुत्दैनन्। के गर्नुहुन्छ?)",
+      "ja": "夜勤のとき、利用者さんがずっと起きています。どうしますか。"
+     },
+     "keywords": [
+      [
+       "talk",
+       "listen",
+       "ask",
+       "reason",
+       "why",
+       "話",
+       "聞",
+       "理由",
+       "सोध",
+       "कुरा"
+      ],
+      [
+       "safe",
+       "watch",
+       "observe",
+       "check",
+       "record",
+       "report",
+       "見守",
+       "記録",
+       "報告",
+       "सुरक्षित"
+      ]
+     ],
+     "model_answer": {
+      "en": "やさしく話を聞いて理由を確かめ、安全に見守り、記録して報告します。  (I gently listen and find out the reason, watch over them safely, then record and report it.)",
+      "ne": "やさしく話を聞いて理由を確かめ、安全に見守り、記録して報告します。  (I gently listen and find out the reason, watch over them safely, then record and report it.)",
+      "ja": "やさしく話を聞いて理由を確かめ、安全に見守り、記録して報告します。"
+     },
+     "probe": {
+      "en": "What could make a resident unable to sleep?",
+      "ne": "बासिन्दालाई निद्रा नलाग्ने कारण के हुन सक्छ?",
+      "ja": "利用者さんが眠れない理由には何がありますか？"
+     }
+    }
+   ]
+  },
+  {
+   "id": "interview_employer",
+   "kind": "interview",
+   "title": {
+    "en": "Care facility employer interview",
+    "ne": "हेरचाह केन्द्र रोजगारदाता अन्तर्वार्ता",
+    "ja": "介護施設の採用面接"
+   },
+   "summary": {
+    "en": "Mock job interview with a Japanese care facility. Polite Japanese (です・ます) scores best.",
+    "ne": "जापानी हेरचाह केन्द्रसँग नक्कली जागिर अन्तर्वार्ता। नम्र जापानी (です・ます) ले राम्रो अङ्क पाउँछ।",
+    "ja": "日本の介護施設での模擬採用面接です。です・ます体で答えましょう。"
+   },
+   "vocab": [
+    {
+     "jp": "長所",
+     "reading": "ちょうしょ",
+     "en": "strength",
+     "ne": "बलियो पक्ष"
+    },
+    {
+     "jp": "短所",
+     "reading": "たんしょ",
+     "en": "weakness",
+     "ne": "कमजोर पक्ष"
+    },
+    {
+     "jp": "研修",
+     "reading": "けんしゅう",
+     "en": "training",
+     "ne": "तालिम"
+    }
+   ],
+   "questions": [
+    {
+     "id": "ie1",
+     "skill": "motivation",
+     "difficulty": 2,
+     "prompt": {
+      "en": "どうしてこの施設を選びましたか。  (Why did you choose this facility?)",
+      "ne": "どうしてこの施設を選びましたか。  (तपाईंले यो केन्द्र किन रोज्नुभयो?)",
+      "ja": "どうしてこの施設を選びましたか。"
+     },
+     "keywords": [
+      [
+       "learn",
+       "care",
+       "help",
+       "quality",
+       "environment",
+       "学",
+       "介護",
+       "環境",
+       "सिक"
+      ],
+      [
+       "interest",
+       "want",
+       "reputation",
+       "website",
+       "興味",
+       "働きたい",
+       "चाहन्छु",
+       "評判"
+      ]
+     ],
+     "model_answer": {
+      "en": "利用者さん一人ひとりを大切にする介護に興味があり、ここで学びたいと思いました。  (I am interested in your person-centred care and want to learn here.)",
+      "ne": "利用者さん一人ひとりを大切にする介護に興味があり、ここで学びたいと思いました。  (I am interested in your person-centred care and want to learn here.)",
+      "ja": "利用者さん一人ひとりを大切にする介護に興味があり、ここで学びたいと思いました。"
+     },
+     "probe": {
+      "en": "What did you learn about this facility before the interview?",
+      "ne": "अन्तर्वार्ताअघि यो केन्द्रबारे के थाहा पाउनुभयो?",
+      "ja": "面接の前に、この施設について何を調べましたか？"
+     }
+    },
+    {
+     "id": "ie2",
+     "skill": "self_intro",
+     "difficulty": 2,
+     "prompt": {
+      "en": "あなたの長所と短所を教えてください。  (Tell me your strengths and weaknesses.)",
+      "ne": "あなたの長所と短所を教えてください。  (तपाईंका बलिया र कमजोर पक्ष बताउनुहोस्।)",
+      "ja": "あなたの長所と短所を教えてください。"
+     },
+     "keywords": [
+      [
+       "strength",
+       "good at",
+       "長所",
+       "得意",
+       "patient",
+       "hardworking",
+       "kind",
+       "真面目",
+       "優しい",
+       "बलियो",
+       "राम्रो"
+      ],
+      [
+       "weakness",
+       "短所",
+       "苦手",
+       "improve",
+       "working on",
+       "直",
+       "कमजोर",
+       "सुधार"
+      ]
+     ],
+     "model_answer": {
+      "en": "長所はまじめなところです。短所は心配しすぎるところですが、相談して直しています。  (My strength is that I am diligent. My weakness is worrying too much, but I am improving by consulting others.)",
+      "ne": "長所はまじめなところです。短所は心配しすぎるところですが、相談して直しています。  (My strength is that I am diligent. My weakness is worrying too much, but I am improving by consulting others.)",
+      "ja": "長所はまじめなところです。短所は心配しすぎるところですが、相談して直しています。"
+     },
+     "probe": {
+      "en": "Give a real example of your strength at work or school.",
+      "ne": "काम वा विद्यालयमा आफ्नो बलियो पक्षको वास्तविक उदाहरण दिनुहोस्।",
+      "ja": "長所が出た実際の例を話してください。"
+     }
+    },
+    {
+     "id": "ie3",
+     "skill": "japanese",
+     "difficulty": 1,
+     "prompt": {
+      "en": "夜勤はできますか。  (Can you work night shifts?)",
+      "ne": "夜勤はできますか。  (राति पालोमा काम गर्न सक्नुहुन्छ?)",
+      "ja": "夜勤はできますか。"
+     },
+     "keywords": [
+      [
+       "yes",
+       "はい",
+       "can",
+       "できます",
+       "सक्छु",
+       "हो",
+       "ok",
+       "okay",
+       "大丈夫"
+      ]
+     ],
+     "model_answer": {
+      "en": "はい、できます。夜勤も頑張ります。  (Yes, I can. I will work hard on night shifts too.)",
+      "ne": "はい、できます。夜勤も頑張ります。  (Yes, I can. I will work hard on night shifts too.)",
+      "ja": "はい、できます。夜勤も頑張ります。"
+     },
+     "probe": {
+      "en": "How will you stay healthy when working nights?",
+      "ne": "राति काम गर्दा कसरी स्वस्थ रहनुहुन्छ?",
+      "ja": "夜勤のとき、どのように体調を管理しますか？"
+     }
+    },
+    {
+     "id": "ie4",
+     "skill": "scenario",
+     "difficulty": 3,
+     "prompt": {
+      "en": "同僚と意見が合わないとき、どうしますか。  (When you disagree with a coworker, what do you do?)",
+      "ne": "同僚と意見が合わないとき、どうしますか。  (सहकर्मीसँग विचार नमिल्दा के गर्नुहुन्छ?)",
+      "ja": "同僚と意見が合わないとき、どうしますか。"
+     },
+     "keywords": [
+      [
+       "talk",
+       "discuss",
+       "listen",
+       "話し合",
+       "聞",
+       "कुरा",
+       "सुन"
+      ],
+      [
+       "supervisor",
+       "leader",
+       "consult",
+       "相談",
+       "上司",
+       "respect",
+       "calm",
+       "冷静",
+       "尊重",
+       "सम्मान"
+      ]
+     ],
+     "model_answer": {
+      "en": "まず相手の話をよく聞いて話し合い、解決しないときは上司に相談します。  (First I listen and discuss it; if it is not solved, I consult my supervisor.)",
+      "ne": "まず相手の話をよく聞いて話し合い、解決しないときは上司に相談します。  (First I listen and discuss it; if it is not solved, I consult my supervisor.)",
+      "ja": "まず相手の話をよく聞いて話し合い、解決しないときは上司に相談します。"
+     },
+     "probe": {
+      "en": "Why is consulting (相談) better than arguing in front of residents?",
+      "ne": "बासिन्दाको अगाडि बहस गर्नुभन्दा 相談 किन राम्रो?",
+      "ja": "利用者さんの前で言い合うより、相談するほうがいいのはなぜですか？"
+     }
+    },
+    {
+     "id": "ie5",
+     "skill": "self_intro",
+     "difficulty": 1,
+     "prompt": {
+      "en": "体力に自信がありますか。  (Are you confident in your physical strength?)",
+      "ne": "体力に自信がありますか。  (तपाईंलाई आफ्नो शारीरिक क्षमतामा विश्वास छ?)",
+      "ja": "体力に自信がありますか。"
+     },
+     "keywords": [
+      [
+       "yes",
+       "はい",
+       "confident",
+       "自信",
+       "healthy",
+       "健康",
+       "exercise",
+       "sport",
+       "運動",
+       "स्वस्थ",
+       "व्यायाम"
+      ]
+     ],
+     "model_answer": {
+      "en": "はい、自信があります。毎朝運動しています。  (Yes, I am confident. I exercise every morning.)",
+      "ne": "はい、自信があります。毎朝運動しています。  (Yes, I am confident. I exercise every morning.)",
+      "ja": "はい、自信があります。毎朝運動しています。"
+     },
+     "probe": {
+      "en": "How do you protect your back when lifting?",
+      "ne": "उचाल्दा ढाड कसरी जोगाउनुहुन्छ?",
+      "ja": "持ち上げるとき、腰をどう守りますか？"
+     }
+    },
+    {
+     "id": "ie6",
+     "skill": "culture",
+     "difficulty": 1,
+     "prompt": {
+      "en": "何か質問はありますか。  (Do you have any questions for us?)",
+      "ne": "何か質問はありますか。  (हामीलाई केही प्रश्न छ?)",
+      "ja": "何か質問はありますか。"
+     },
+     "keywords": [
+      [
+       "question",
+       "質問",
+       "training",
+       "研修",
+       "schedule",
+       "shift",
+       "勤務",
+       "housing",
+       "寮",
+       "salary",
+       "給料",
+       "प्रश्न",
+       "तालिम",
+       "work",
+       "仕事"
+      ]
+     ],
+     "model_answer": {
+      "en": "はい。入社後の研修について教えていただけますか。  (Yes. Could you tell me about the training after joining?)",
+      "ne": "はい。入社後の研修について教えていただけますか。  (Yes. Could you tell me about the training after joining?)",
+      "ja": "はい。入社後の研修について教えていただけますか。"
+     },
+     "probe": {
+      "en": "Why does asking a question show motivation?",
+      "ne": "प्रश्न सोध्नुले किन उत्साह देखाउँछ?",
+      "ja": "質問をすることが、なぜやる気を示すのですか？"
+     }
+    }
+   ]
+  }
+ ]
+}

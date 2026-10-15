@@ -1,0 +1,4055 @@
+{
+ "track": "caregiving",
+ "target_level": "N5",
+ "skills": [
+  "vocabulary",
+  "grammar",
+  "comprehension",
+  "recall"
+ ],
+ "topics": [
+  {
+   "id": "basic_nursing",
+   "title": {
+    "en": "Basic nursing",
+    "ne": "आधारभूत नर्सिङ",
+    "ja": "基本的な看護"
+   },
+   "vocab": [
+    {
+     "jp": "体調",
+     "reading": "たいちょう",
+     "ne": "शारीरिक अवस्था",
+     "en": "physical condition"
+    },
+    {
+     "jp": "血圧",
+     "reading": "けつあつ",
+     "ne": "रक्तचाप",
+     "en": "blood pressure"
+    },
+    {
+     "jp": "体温",
+     "reading": "たいおん",
+     "ne": "शरीरको तापक्रम",
+     "en": "body temperature"
+    }
+   ],
+   "questions": [
+    {
+     "id": "bn1",
+     "skill": "vocabulary",
+     "prompt": {
+      "en": "Staff in Japanese care homes ask about a resident's 体調 (たいちょう). What does 体調 mean?",
+      "ne": "जापानका हेरचाह केन्द्रहरूमा कर्मचारीले बासिन्दाको 体調 (たいちょう) बारे सोध्छन्। 体調 को अर्थ के हो?",
+      "ja": "介護施設のスタッフは入居者の「体調」についてよく聞きます。「体調」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "condition",
+       "health",
+       "feeling",
+       "feel",
+       "अवस्था",
+       "स्वास्थ्य",
+       "तबियत",
+       "調子"
+      ]
+     ],
+     "model_answer": {
+      "en": "体調 means physical condition: how the person's body is feeling today.",
+      "ne": "体調 को अर्थ शारीरिक अवस्था हो: आज व्यक्तिको शरीर कस्तो महसुस भइरहेको छ।",
+      "ja": "体調とは、その日の体の具合のことです。"
+     },
+     "probe": {
+      "en": "Why would a caregiver ask about 体調 before starting the morning routine?",
+      "ne": "बिहानको दिनचर्या सुरु गर्नुअघि केयरगिभरले किन 体調 सोध्छ?",
+      "ja": "朝のケアを始める前に、なぜ体調を聞くのですか？"
+     },
+     "difficulty": 1
+    },
+    {
+     "id": "bn2",
+     "skill": "comprehension",
+     "prompt": {
+      "en": "A resident says 頭が痛いです (あたまがいたいです). What is the problem, and what should the caregiver do first?",
+      "ne": "बासिन्दाले 頭が痛いです भन्छन्। समस्या के हो र केयरगिभरले सबैभन्दा पहिले के गर्नुपर्छ?",
+      "ja": "入居者が「頭が痛いです」と言いました。どんな問題ですか。介護士は最初に何をしますか？"
+     },
+     "keywords": [
+      [
+       "headache",
+       "head",
+       "pain",
+       "ache",
+       "टाउको",
+       "दुख",
+       "頭",
+       "痛"
+      ],
+      [
+       "report",
+       "tell",
+       "nurse",
+       "supervisor",
+       "check",
+       "ask",
+       "measure",
+       "सूचना",
+       "नर्स",
+       "बताउ",
+       "報告",
+       "看護"
+      ]
+     ],
+     "model_answer": {
+      "en": "The resident has a headache. First, ask about it and report to the nurse or supervisor.",
+      "ne": "बासिन्दालाई टाउको दुखेको छ। पहिले सोध्नुहोस् र नर्स वा सुपरभाइजरलाई जानकारी दिनुहोस्।",
+      "ja": "頭痛です。まず様子を聞き、看護師か上司に報告します。"
+     },
+     "probe": {
+      "en": "What could go wrong if the caregiver just waits and says nothing?",
+      "ne": "केयरगिभरले केही नबोली पर्खियो भने के बिग्रन सक्छ?",
+      "ja": "何も言わずに待っていたら、どんな問題が起こりますか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "bn3",
+     "skill": "recall",
+     "prompt": {
+      "en": "Name two vital signs a caregiver measures, one of them blood pressure.",
+      "ne": "केयरगिभरले नाप्ने दुई vital sign (शरीरका सङ्केत) भन्नुहोस्, एउटा रक्तचाप हुनुपर्छ।",
+      "ja": "介護士が測るバイタルサインを2つ答えてください。1つは血圧です。"
+     },
+     "keywords": [
+      [
+       "blood pressure",
+       "血圧",
+       "रक्तचाप",
+       "bp"
+      ],
+      [
+       "temperature",
+       "pulse",
+       "heart rate",
+       "breathing",
+       "respiration",
+       "体温",
+       "脈",
+       "तापक्रम",
+       "नाडी",
+       "fever"
+      ]
+     ],
+     "model_answer": {
+      "en": "Blood pressure (血圧) and body temperature (体温); pulse and breathing also count.",
+      "ne": "रक्तचाप (血圧) र शरीरको तापक्रम (体温); नाडी र श्वासप्रश्वास पनि मान्य हुन्छ।",
+      "ja": "血圧と体温です。脈拍や呼吸も正解です。"
+     },
+     "probe": {
+      "en": "Which of these would you re-check first if a resident looks pale?",
+      "ne": "बासिन्दा फिक्का देखिए कुन कुरा पहिले फेरि जाँच्नुहुन्छ?",
+      "ja": "入居者の顔色が悪いとき、まず何をもう一度確認しますか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "bn4",
+     "skill": "vocabulary",
+     "prompt": {
+      "en": "A nurse says 脈 (みゃく) を測ります. What is being measured?",
+      "ne": "नर्सले 脈 (みゃく) を測ります भन्छिन्। के नापिँदै छ?",
+      "ja": "看護師が「脈を測ります」と言いました。何を測りますか？"
+     },
+     "keywords": [
+      [
+       "pulse",
+       "heartbeat",
+       "heart rate",
+       "heart beat",
+       "नाडी",
+       "धड्कन",
+       "脈拍"
+      ]
+     ],
+     "model_answer": {
+      "en": "脈 is the pulse: the heartbeat you can feel at the wrist.",
+      "ne": "脈 को अर्थ नाडी हो: नाडीमा महसुस हुने मुटुको धड्कन।",
+      "ja": "脈は脈拍のことで、手首で感じる心臓の拍動です。"
+     },
+     "probe": {
+      "en": "Where on the body can you feel it most easily?",
+      "ne": "यो शरीरको कुन ठाउँमा सजिलै महसुस गर्न सकिन्छ?",
+      "ja": "体のどこで一番感じやすいですか？"
+     },
+     "difficulty": 1
+    },
+    {
+     "id": "bn5",
+     "skill": "grammar",
+     "prompt": {
+      "en": "Which is polite to ask a resident: 痛いですか or 痛いか? Say why.",
+      "ne": "बासिन्दालाई सोध्न कुन नम्र छ: 痛いですか कि 痛いか? किन?",
+      "ja": "入居者に聞くとき、丁寧なのは「痛いですか」と「痛いか」のどちらですか？理由も答えてください。"
+     },
+     "keywords": [
+      [
+       "痛いですか",
+       "いたいですか",
+       "itaidesuka",
+       "itai desu ka",
+       "desu ka",
+       "first",
+       "former",
+       "です"
+      ],
+      [
+       "polite",
+       "respect",
+       "kind",
+       "command",
+       "rude",
+       "blunt",
+       "casual",
+       "impolite",
+       "आदेश",
+       "सम्मान",
+       "नम्र",
+       "अशिष्ट",
+       "丁寧",
+       "命令",
+       "失礼"
+      ]
+     ],
+     "model_answer": {
+      "en": "痛いですか is polite (it ends with です); 痛いか is blunt and casual.",
+      "ne": "痛いですか नम्र हो (です ले अन्त्य हुन्छ); 痛いか सिधा र अनौपचारिक हो।",
+      "ja": "「痛いですか」は丁寧な言い方で、「痛いか」はぞんざいな言い方です。"
+     },
+     "probe": {
+      "en": "After 痛いですか, what is your next question?",
+      "ne": "痛いですか पछि तपाईंको अर्को प्रश्न के हुन्छ?",
+      "ja": "「痛いですか」のあと、次に何と聞きますか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "bn6",
+     "skill": "comprehension",
+     "prompt": {
+      "en": "A resident's temperature reads 38.5°C. What does this mean and what should you do?",
+      "ne": "बासिन्दाको तापक्रम 38.5°C छ। यसको अर्थ के हो र तपाईंले के गर्नुपर्छ?",
+      "ja": "入居者の体温が38.5度です。どういう状態で、どうしますか？"
+     },
+     "keywords": [
+      [
+       "fever",
+       "high temperature",
+       "high temp",
+       "hot",
+       "febrile",
+       "ज्वरो",
+       "ज्वरा",
+       "熱"
+      ],
+      [
+       "report",
+       "tell",
+       "inform",
+       "nurse",
+       "supervisor",
+       "record",
+       "सूचना",
+       "जानकारी",
+       "नर्स",
+       "報告",
+       "看護"
+      ]
+     ],
+     "model_answer": {
+      "en": "38.5°C is a fever. Report to the nurse and record it.",
+      "ne": "38.5°C ज्वरो हो। नर्सलाई जानकारी दिनुहोस् र अभिलेख राख्नुहोस्।",
+      "ja": "38.5度は発熱です。看護師に報告して記録します。"
+     },
+     "probe": {
+      "en": "What else would you watch for besides the number?",
+      "ne": "संख्याबाहेक अरू के कुरा ध्यान दिएर हेर्नुहुन्छ?",
+      "ja": "数字のほかに、何に気をつけて見ますか？"
+     },
+     "difficulty": 3
+    },
+    {
+     "id": "bn7",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 薬 (くすり) mean?",
+      "ne": "薬 (くすり) को अर्थ के हो?",
+      "ja": "「薬（くすり）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "medicine",
+       "medication",
+       "drug",
+       "pill",
+       "tablet",
+       "औषधि",
+       "ओखती",
+       "औषध"
+      ]
+     ],
+     "model_answer": {
+      "en": "薬 means medicine.",
+      "ne": "薬 को अर्थ औषधि हो।",
+      "ja": "薬は、病気やけがを治すためのものです。"
+     },
+     "probe": {
+      "en": "Why should a caregiver never give 薬 without checking with the nurse?",
+      "ne": "नर्ससँग नसोधी केयरगिभरले किन कहिल्यै 薬 दिनु हुँदैन?",
+      "ja": "なぜ看護師に確認せずに薬を渡してはいけないのですか？"
+     }
+    },
+    {
+     "id": "bn8",
+     "skill": "comprehension",
+     "difficulty": 2,
+     "prompt": {
+      "en": "A resident says 気分が悪いです (きぶんがわるいです). What does it mean, and what do you do?",
+      "ne": "बासिन्दाले 気分が悪いです भन्छन्। यसको अर्थ के हो, र तपाईं के गर्नुहुन्छ?",
+      "ja": "入居者が「気分が悪いです」と言いました。どういう意味ですか。どうしますか？"
+     },
+     "keywords": [
+      [
+       "sick",
+       "unwell",
+       "not feeling well",
+       "not well",
+       "nausea",
+       "ill",
+       "bad",
+       "बिरामी",
+       "सन्चो",
+       "気分"
+      ],
+      [
+       "report",
+       "tell",
+       "inform",
+       "nurse",
+       "supervisor",
+       "सूचना",
+       "जानकारी",
+       "नर्स",
+       "報告",
+       "看護",
+       "check",
+       "measure",
+       "जाँच"
+      ]
+     ],
+     "model_answer": {
+      "en": "It means 'I feel sick / unwell'. Check their condition and report to the nurse.",
+      "ne": "यसको अर्थ 'मलाई सन्चो छैन' हो। अवस्था जाँच्नुहोस् र नर्सलाई जानकारी दिनुहोस्।",
+      "ja": "「気分が悪い」は体調がよくないという意味です。様子を確認して、看護師に報告します。"
+     },
+     "probe": {
+      "en": "Which vital signs would you measure first, and why?",
+      "ne": "पहिले कुन-कुन भाइटल साइन नाप्नुहुन्छ, र किन?",
+      "ja": "最初にどのバイタルサインを測りますか。なぜですか？"
+     }
+    },
+    {
+     "id": "bn9",
+     "skill": "grammar",
+     "difficulty": 2,
+     "prompt": {
+      "en": "What does the ending ～てもいいですか express, as in 触ってもいいですか?",
+      "ne": "触ってもいいですか जस्तो ～てもいいですか ले के जनाउँछ?",
+      "ja": "「触ってもいいですか」の「～てもいいですか」は何を表しますか？"
+     },
+     "keywords": [
+      [
+       "permission",
+       "may i",
+       "can i",
+       "allowed",
+       "is it ok",
+       "is it okay",
+       "अनुमति",
+       "सक्छु",
+       "許可"
+      ]
+     ],
+     "model_answer": {
+      "en": "～てもいいですか asks for permission: 'May I touch you?'. Caregivers ask before touching a resident.",
+      "ne": "～てもいいですか ले अनुमति माग्छ: 'छुन सक्छु?'। केयरगिभरले छुनुअघि अनुमति सोध्छ।",
+      "ja": "「～てもいいですか」は許可を求める表現です。体に触れる前に必ず聞きます。"
+     },
+     "probe": {
+      "en": "Why is asking permission before touching important in Japanese care?",
+      "ne": "जापानी हेरचाहमा छुनुअघि अनुमति सोध्नु किन महत्त्वपूर्ण छ?",
+      "ja": "介護で体に触れる前に許可を求めるのは、なぜ大切ですか？"
+     }
+    },
+    {
+     "id": "bn10",
+     "skill": "recall",
+     "difficulty": 3,
+     "prompt": {
+      "en": "A resident's blood pressure is much higher than usual. Name two things you should do.",
+      "ne": "बासिन्दाको रक्तचाप सामान्यभन्दा धेरै बढी छ। तपाईंले गर्नुपर्ने दुई कुरा भन्नुहोस्।",
+      "ja": "入居者の血圧がいつもよりかなり高いです。するべきことを2つ答えてください。"
+     },
+     "keywords": [
+      [
+       "report",
+       "tell",
+       "inform",
+       "nurse",
+       "supervisor",
+       "सूचना",
+       "जानकारी",
+       "नर्स",
+       "報告",
+       "看護"
+      ],
+      [
+       "again",
+       "re-measure",
+       "remeasure",
+       "rest",
+       "record",
+       "write",
+       "calm",
+       "फेरि",
+       "आराम",
+       "लेख",
+       "記録",
+       "安静",
+       "もう一度"
+      ]
+     ],
+     "model_answer": {
+      "en": "Let them rest and measure again, record the value, and report to the nurse.",
+      "ne": "आराम गर्न दिनुहोस् र फेरि नाप्नुहोस्, मान लेख्नुहोस्, र नर्सलाई जानकारी दिनुहोस्।",
+      "ja": "安静にしてもう一度測り、記録して看護師に報告します。"
+     },
+     "probe": {
+      "en": "Why do we record the exact value and the time?",
+      "ne": "किन ठ्याक्कै मान र समय लेख्छौं?",
+      "ja": "なぜ正確な数値と時間を記録するのですか？"
+     }
+    }
+   ],
+   "track": "caregiving"
+  },
+  {
+   "id": "elder_care",
+   "title": {
+    "en": "Elder care",
+    "ne": "वृद्ध हेरचाह",
+    "ja": "高齢者ケア"
+   },
+   "vocab": [
+    {
+     "jp": "食事",
+     "reading": "しょくじ",
+     "ne": "खाना / भोजन",
+     "en": "meal"
+    },
+    {
+     "jp": "手伝います",
+     "reading": "てつだいます",
+     "ne": "सहयोग गर्छु",
+     "en": "I will help"
+    },
+    {
+     "jp": "移乗",
+     "reading": "いじょう",
+     "ne": "सारेर बसाउने (transfer)",
+     "en": "transfer (bed to chair)"
+    }
+   ],
+   "questions": [
+    {
+     "id": "ec1",
+     "skill": "vocabulary",
+     "prompt": {
+      "en": "What does 食事 (しょくじ) mean?",
+      "ne": "食事 (しょくじ) को अर्थ के हो?",
+      "ja": "「食事」の意味を説明してください。"
+     },
+     "keywords": [
+      [
+       "meal",
+       "food",
+       "eating",
+       "खाना",
+       "भोजन",
+       "食"
+      ]
+     ],
+     "model_answer": {
+      "en": "食事 means a meal, or eating.",
+      "ne": "食事 को अर्थ खाना वा भोजन गर्नु हो।",
+      "ja": "食事は、ごはんを食べることです。"
+     },
+     "probe": {
+      "en": "Which care tasks are connected to 食事?",
+      "ne": "खानासँग सम्बन्धित हेरचाहका कामहरू कुन कुन हुन्?",
+      "ja": "食事に関係するケアにはどんなものがありますか？"
+     },
+     "difficulty": 1
+    },
+    {
+     "id": "ec2",
+     "skill": "grammar",
+     "prompt": {
+      "en": "Which sounds polite to a resident: 手伝いましょうか or 手伝え? Say why.",
+      "ne": "बासिन्दालाई कुन तरिका नम्र छ: 手伝いましょうか कि 手伝え? किन?",
+      "ja": "入居者に丁寧なのは「手伝いましょうか」と「手伝え」のどちらですか？理由も答えてください。"
+     },
+     "keywords": [
+      [
+       "手伝いましょうか",
+       "てつだいましょうか",
+       "tetsudaimashouka",
+       "tetsudaimashoka",
+       "ましょうか",
+       "first",
+       "former"
+      ],
+      [
+       "polite",
+       "respect",
+       "kind",
+       "command",
+       "rude",
+       "impolite",
+       "आदेश",
+       "सम्मान",
+       "नम्र",
+       "丁寧"
+      ]
+     ],
+     "model_answer": {
+      "en": "手伝いましょうか is polite (an offer); 手伝え is a rude command.",
+      "ne": "手伝いましょうか नम्र हो (प्रस्ताव); 手伝え अशिष्ट आदेश हो।",
+      "ja": "「手伝いましょうか」は丁寧な申し出で、「手伝え」は失礼な命令です。"
+     },
+     "probe": {
+      "en": "How would you offer help with 食事 using the same pattern?",
+      "ne": "त्यही ढाँचा प्रयोग गरेर खानामा सहयोग कसरी प्रस्ताव गर्ने?",
+      "ja": "同じ形で、食事の手伝いを申し出るには何と言いますか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "ec3",
+     "skill": "comprehension",
+     "prompt": {
+      "en": "A resident refuses to eat lunch. Give two things a caregiver should do.",
+      "ne": "बासिन्दाले खाना खान मानेनन्। केयरगिभरले गर्नुपर्ने दुई कुरा भन्नुहोस्।",
+      "ja": "入居者が昼ごはんを食べたがりません。介護士がすべきことを2つ答えてください。"
+     },
+     "keywords": [
+      [
+       "ask",
+       "why",
+       "listen",
+       "reason",
+       "कारण",
+       "सोध"
+      ],
+      [
+       "report",
+       "nurse",
+       "record",
+       "tell",
+       "note",
+       "सूचना",
+       "नर्स"
+      ]
+     ],
+     "model_answer": {
+      "en": "Ask gently why and listen, then report to the nurse and record it.",
+      "ne": "विनम्रतापूर्वक कारण सोध्नुहोस् र सुन्नुहोस्, अनि नर्सलाई जानकारी दिनुहोस् र अभिलेख राख्नुहोस्।",
+      "ja": "やさしく理由を聞いて耳を傾け、看護師に報告して記録します。"
+     },
+     "probe": {
+      "en": "What reasons might a resident have that you could not see at first?",
+      "ne": "सुरुमा नदेखिने कस्ता कारण बासिन्दासँग हुन सक्छन्?",
+      "ja": "すぐには分からない理由として、どんなことが考えられますか？"
+     },
+     "difficulty": 3
+    },
+    {
+     "id": "ec4",
+     "skill": "vocabulary",
+     "prompt": {
+      "en": "What does 車椅子 (くるまいす) mean?",
+      "ne": "車椅子 (くるまいす) को अर्थ के हो?",
+      "ja": "「車椅子」とは何ですか？説明してください。"
+     },
+     "keywords": [
+      [
+       "wheelchair",
+       "wheel chair",
+       "व्हीलचेयर",
+       "ह्वीलचेयर",
+       "ह्विलचेयर",
+       "पाङ्ग्रे",
+       "車いす"
+      ]
+     ],
+     "model_answer": {
+      "en": "車椅子 is a wheelchair.",
+      "ne": "車椅子 को अर्थ ह्वीलचेयर हो।",
+      "ja": "車椅子は、座ったまま移動するための、車輪のついたいすです。"
+     },
+     "probe": {
+      "en": "What must you check before moving a resident in one?",
+      "ne": "बासिन्दालाई त्यसमा सार्नुअघि के जाँच्नुपर्छ?",
+      "ja": "車椅子で移動する前に、何を確認しますか？"
+     },
+     "difficulty": 1
+    },
+    {
+     "id": "ec5",
+     "skill": "grammar",
+     "prompt": {
+      "en": "Which is polite: 気をつけてください or 気をつけろ? Say why.",
+      "ne": "कुन नम्र छ: 気をつけてください कि 気をつけろ? किन?",
+      "ja": "丁寧なのは「気をつけてください」と「気をつけろ」のどちらですか？理由も答えてください。"
+     },
+     "keywords": [
+      [
+       "気をつけてください",
+       "きをつけてください",
+       "kiwotsukete kudasai",
+       "kudasai",
+       "first",
+       "former",
+       "てください"
+      ],
+      [
+       "polite",
+       "respect",
+       "kind",
+       "command",
+       "rude",
+       "blunt",
+       "casual",
+       "impolite",
+       "आदेश",
+       "सम्मान",
+       "नम्र",
+       "अशिष्ट",
+       "丁寧",
+       "命令",
+       "失礼"
+      ]
+     ],
+     "model_answer": {
+      "en": "気をつけてください is polite (a request); 気をつけろ is a rough command.",
+      "ne": "気をつけてください नम्र अनुरोध हो; 気をつけろ कडा आदेश हो।",
+      "ja": "「気をつけてください」は丁寧な依頼で、「気をつけろ」は乱暴な命令です。"
+     },
+     "probe": {
+      "en": "When would you say it to a resident?",
+      "ne": "तपाईं यो बासिन्दालाई कहिले भन्नुहुन्छ?",
+      "ja": "どんなときに入居者にそう言いますか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "ec6",
+     "skill": "recall",
+     "prompt": {
+      "en": "Name two daily tasks caregivers help residents with. One of them is 食事 (meals).",
+      "ne": "केयरगिभरले बासिन्दालाई गर्ने दुई दैनिक कामको नाम भन्नुहोस्। एउटा 食事 (खाना) हुनुपर्छ।",
+      "ja": "介護士が入居者を手伝う毎日の仕事を2つ答えてください。1つは食事です。"
+     },
+     "keywords": [
+      [
+       "meal",
+       "food",
+       "eating",
+       "खाना",
+       "भोजन",
+       "食事",
+       "ごはん"
+      ],
+      [
+       "bath",
+       "bathing",
+       "toilet",
+       "dress",
+       "clothes",
+       "move",
+       "transfer",
+       "walk",
+       "sleep",
+       "नुहा",
+       "शौचालय",
+       "लुगा",
+       "हिँड",
+       "入浴",
+       "風呂",
+       "トイレ",
+       "着替",
+       "移乗"
+      ]
+     ],
+     "model_answer": {
+      "en": "Meals (食事) plus bathing (入浴), toilet help, dressing or moving.",
+      "ne": "खाना (食事) र नुहाउने (入浴), शौचालय सहयोग, लुगा लगाउने वा सार्ने काम।",
+      "ja": "食事と、入浴・トイレ・着替え・移動などの手伝いです。"
+     },
+     "probe": {
+      "en": "Which of these needs the most privacy and respect?",
+      "ne": "यीमध्ये कुन काममा सबैभन्दा बढी गोपनीयता र सम्मान चाहिन्छ?",
+      "ja": "どの介助が一番プライバシーと敬意が必要ですか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "ec7",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 移乗 (いじょう) mean in care work?",
+      "ne": "हेरचाह काममा 移乗 (いじょう) को अर्थ के हो?",
+      "ja": "介護の仕事で「移乗（いじょう）」とは何ですか？"
+     },
+     "keywords": [
+      [
+       "transfer",
+       "move",
+       "moving",
+       "bed to",
+       "wheelchair",
+       "सार्नु",
+       "सार",
+       "移動",
+       "乗り移"
+      ]
+     ],
+     "model_answer": {
+      "en": "移乗 means transferring a person, for example from the bed to a wheelchair.",
+      "ne": "移乗 को अर्थ व्यक्तिलाई सार्नु हो, जस्तै ओछ्यानबाट ह्वीलचेयरमा।",
+      "ja": "移乗とは、ベッドから車いすなどへ乗り移るのを手伝うことです。"
+     },
+     "probe": {
+      "en": "What should you check before a 移乗 to keep the resident safe?",
+      "ne": "移乗 गर्नुअघि बासिन्दाको सुरक्षाका लागि के जाँच्नुपर्छ?",
+      "ja": "移乗の前に、安全のために何を確認しますか？"
+     }
+    },
+    {
+     "id": "ec8",
+     "skill": "comprehension",
+     "difficulty": 2,
+     "prompt": {
+      "en": "A resident with dementia (認知症) asks the same question many times. How should you respond?",
+      "ne": "डिमेन्सिया (認知症) भएका बासिन्दाले एउटै प्रश्न धेरै पटक सोध्छन्। तपाईं कसरी जवाफ दिनुहुन्छ?",
+      "ja": "認知症の入居者が同じ質問を何度もします。どう対応しますか？"
+     },
+     "keywords": [
+      [
+       "calm",
+       "gentle",
+       "kind",
+       "patient",
+       "patience",
+       "smile",
+       "शान्त",
+       "नम्र",
+       "धैर्य",
+       "優しく",
+       "落ち着",
+       "穏やか"
+      ],
+      [
+       "every time",
+       "each time",
+       "again",
+       "repeat",
+       "reassure",
+       "respect",
+       "dignity",
+       "हरेक पटक",
+       "फेरि",
+       "ढुक्क",
+       "सम्मान",
+       "毎回",
+       "安心",
+       "尊重"
+      ]
+     ],
+     "model_answer": {
+      "en": "Answer calmly and kindly each time, without showing irritation, and reassure them.",
+      "ne": "हरेक पटक शान्त र नम्र भएर उत्तर दिनुहोस्, झर्को नदेखाई, र उहाँलाई ढुक्क बनाउनुहोस्।",
+      "ja": "毎回、落ち着いて優しく答え、安心してもらいます。"
+     },
+     "probe": {
+      "en": "Why might correcting them sharply make the situation worse?",
+      "ne": "उहाँलाई कडा रूपमा सच्याउँदा किन स्थिति झन् बिग्रन सक्छ?",
+      "ja": "強く訂正すると、なぜ状況が悪くなるのでしょうか？"
+     }
+    },
+    {
+     "id": "ec9",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 散歩 (さんぽ) mean?",
+      "ne": "散歩 (さんぽ) को अर्थ के हो?",
+      "ja": "「散歩（さんぽ）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "walk",
+       "stroll",
+       "हिँड",
+       "घुम",
+       "歩"
+      ]
+     ],
+     "model_answer": {
+      "en": "散歩 means a walk or stroll.",
+      "ne": "散歩 को अर्थ घुम्न हिँड्नु हो।",
+      "ja": "散歩は外をゆっくり歩くことです。"
+     },
+     "probe": {
+      "en": "What would you check before taking a resident for a 散歩?",
+      "ne": "बासिन्दालाई 散歩 मा लैजानुअघि के जाँच्नुहुन्छ?",
+      "ja": "入居者と散歩に行く前に、何を確認しますか？"
+     }
+    },
+    {
+     "id": "ec10",
+     "skill": "grammar",
+     "difficulty": 3,
+     "prompt": {
+      "en": "Turn 座る (すわる, to sit) into a polite request to a resident.",
+      "ne": "座る (すわる, बस्नु) लाई बासिन्दाप्रति नम्र अनुरोधमा बदल्नुहोस्।",
+      "ja": "「座る」を入居者への丁寧なお願いの形にしてください。"
+     },
+     "keywords": [
+      [
+       "座ってください",
+       "すわってください",
+       "suwatte kudasai",
+       "suwattekudasai",
+       "お座りください",
+       "おすわりください",
+       "おかけください",
+       "kudasai",
+       "ください"
+      ]
+     ],
+     "model_answer": {
+      "en": "座ってください (suwatte kudasai), or even more polite: お座りください.",
+      "ne": "座ってください (सुवात्ते कुदासाइ), अझ नम्र: お座りください।",
+      "ja": "「座ってください」、さらに丁寧に「お座りください」と言います。"
+     },
+     "probe": {
+      "en": "How does the て-form + ください pattern change another verb, like 待つ (まつ)?",
+      "ne": "て-form + ください ले 待つ (まつ) जस्तो अर्को क्रियालाई कसरी बदल्छ?",
+      "ja": "「待つ」も「て形＋ください」にするとどうなりますか？"
+     }
+    }
+   ],
+   "track": "caregiving"
+  },
+  {
+   "id": "hygiene",
+   "title": {
+    "en": "Hygiene",
+    "ne": "सरसफाइ",
+    "ja": "衛生"
+   },
+   "vocab": [
+    {
+     "jp": "手洗い",
+     "reading": "てあらい",
+     "ne": "हात धुने",
+     "en": "hand washing"
+    },
+    {
+     "jp": "消毒",
+     "reading": "しょうどく",
+     "ne": "कीटाणुनाशन",
+     "en": "disinfection"
+    },
+    {
+     "jp": "入浴",
+     "reading": "にゅうよく",
+     "ne": "नुहाउने",
+     "en": "bathing"
+    }
+   ],
+   "questions": [
+    {
+     "id": "hy1",
+     "skill": "vocabulary",
+     "prompt": {
+      "en": "What is 手洗い (てあらい)?",
+      "ne": "手洗い (てあらい) भनेको के हो?",
+      "ja": "「手洗い」とは何ですか？説明してください。"
+     },
+     "keywords": [
+      [
+       "hand washing",
+       "wash hands",
+       "washing hands",
+       "wash your hands",
+       "hand wash",
+       "हात धुन",
+       "手を洗"
+      ]
+     ],
+     "model_answer": {
+      "en": "手洗い is hand washing.",
+      "ne": "手洗い भनेको हात धुने काम हो।",
+      "ja": "手洗いは、手を洗うことです。"
+     },
+     "probe": {
+      "en": "Why is it the single most repeated habit in a care home?",
+      "ne": "हेरचाह केन्द्रमा यो सबैभन्दा धेरै दोहोरिने बानी किन हो?",
+      "ja": "なぜ介護施設で一番くり返される習慣なのですか？"
+     },
+     "difficulty": 1
+    },
+    {
+     "id": "hy2",
+     "skill": "recall",
+     "prompt": {
+      "en": "Name two moments when a caregiver must wash their hands.",
+      "ne": "केयरगिभरले कुन दुई समयमा हात धुनुपर्छ?",
+      "ja": "介護士が手を洗わなければならない場面を2つ答えてください。"
+     },
+     "keywords": [
+      [
+       "before",
+       "after",
+       "पहिले",
+       "पछि",
+       "前",
+       "後"
+      ],
+      [
+       "meal",
+       "eating",
+       "food",
+       "toilet",
+       "bathroom",
+       "gloves",
+       "resident",
+       "contact",
+       "खाना",
+       "शौचालय",
+       "दिसा"
+      ]
+     ],
+     "model_answer": {
+      "en": "Before meals and after toilet care (also before and after touching a resident, and after removing gloves).",
+      "ne": "खाना अघि र शौचालय हेरचाह पछि (बासिन्दालाई छुनुअघि/पछि र पञ्जा हटाएपछि पनि)।",
+      "ja": "食事の前と、トイレ介助の後です。入居者に触れる前後や手袋を外した後も正解です。"
+     },
+     "probe": {
+      "en": "Which of these moments is easiest to forget when you are rushed?",
+      "ne": "हतारमा हुँदा यीमध्ये कुन समय बिर्सन सबैभन्दा सजिलो हुन्छ?",
+      "ja": "忙しいとき、どの場面を一番忘れやすいですか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "hy3",
+     "skill": "comprehension",
+     "prompt": {
+      "en": "What is 消毒 (しょうどく) used for?",
+      "ne": "消毒 (しょうどく) के का लागि प्रयोग गरिन्छ?",
+      "ja": "「消毒」は何のために使いますか？"
+     },
+     "keywords": [
+      [
+       "disinfect",
+       "sterilize",
+       "sterilise",
+       "kill germs",
+       "germs",
+       "bacteria",
+       "infection",
+       "कीटाणु",
+       "संक्रमण",
+       "菌"
+      ]
+     ],
+     "model_answer": {
+      "en": "消毒 is disinfection: killing germs to prevent infection.",
+      "ne": "消毒 भनेको कीटाणुनाशन हो: संक्रमण रोक्न कीटाणु मार्ने।",
+      "ja": "消毒は、菌を殺して感染を防ぐことです。"
+     },
+     "probe": {
+      "en": "What should be disinfected between two residents?",
+      "ne": "दुई बासिन्दाबीच के के कीटाणुरहित गर्नुपर्छ?",
+      "ja": "入居者が変わるとき、何を消毒すべきですか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "hy4",
+     "skill": "vocabulary",
+     "prompt": {
+      "en": "What does 入浴 (にゅうよく) mean?",
+      "ne": "入浴 (にゅうよく) को अर्थ के हो?",
+      "ja": "「入浴」とは何ですか？説明してください。"
+     },
+     "keywords": [
+      [
+       "bath",
+       "bathing",
+       "taking a bath",
+       "wash",
+       "नुहा",
+       "नुहाउने",
+       "お風呂",
+       "風呂"
+      ]
+     ],
+     "model_answer": {
+      "en": "入浴 is bathing.",
+      "ne": "入浴 को अर्थ नुहाउनु हो।",
+      "ja": "入浴は、おふろに入ることです。"
+     },
+     "probe": {
+      "en": "What do you check before a resident gets into the bath?",
+      "ne": "बासिन्दा नुहाउन जानुअघि के जाँच्नुहुन्छ?",
+      "ja": "入浴の前に、何を確認しますか？"
+     },
+     "difficulty": 1
+    },
+    {
+     "id": "hy5",
+     "skill": "grammar",
+     "prompt": {
+      "en": "Which particle completes 手＿洗います (wash hands): を, が or に?",
+      "ne": "手＿洗います पूरा गर्ने कण कुन हो: を, が कि に?",
+      "ja": "「手＿洗います」に入る助詞は、を・が・にのどれですか？"
+     },
+     "keywords": [
+      [
+       "を",
+       "wo",
+       "'o'",
+       "(o)",
+       "particle o"
+      ]
+     ],
+     "model_answer": {
+      "en": "を: it marks the object that is washed.",
+      "ne": "を: यसले धोइने वस्तु (कर्म) जनाउँछ।",
+      "ja": "「を」です。洗う対象を表します。"
+     },
+     "probe": {
+      "en": "Make a sentence with を about the resident's face.",
+      "ne": "बासिन्दाको अनुहारबारे を प्रयोग गरेर एउटा वाक्य बनाउनुहोस्।",
+      "ja": "「を」を使って、入居者の顔について文を作ってください。"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "hy6",
+     "skill": "recall",
+     "prompt": {
+      "en": "Name two protective items used to prevent infection. One of them is gloves (手袋).",
+      "ne": "संक्रमण रोक्न प्रयोग हुने दुई सुरक्षात्मक सामग्री भन्नुहोस्। एउटा पञ्जा (手袋) हुनुपर्छ।",
+      "ja": "感染を防ぐための防護用品を2つ答えてください。1つは手袋です。"
+     },
+     "keywords": [
+      [
+       "glove",
+       "gloves",
+       "पञ्जा",
+       "पन्जा",
+       "ग्लोभ",
+       "手袋"
+      ],
+      [
+       "mask",
+       "apron",
+       "gown",
+       "goggles",
+       "face shield",
+       "मास्क",
+       "एप्रन",
+       "マスク",
+       "エプロン",
+       "ガウン"
+      ]
+     ],
+     "model_answer": {
+      "en": "Gloves (手袋) and a mask (マスク); an apron also counts.",
+      "ne": "पञ्जा (手袋) र मास्क (マスク); एप्रन पनि मान्य हुन्छ।",
+      "ja": "手袋とマスクです。エプロンも正解です。"
+     },
+     "probe": {
+      "en": "When must you change your gloves?",
+      "ne": "पञ्जा कहिले फेर्नुपर्छ?",
+      "ja": "手袋は、どんなときに替えますか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "hy7",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 清潔 (せいけつ) mean?",
+      "ne": "清潔 (せいけつ) को अर्थ के हो?",
+      "ja": "「清潔（せいけつ）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "clean",
+       "hygienic",
+       "hygiene",
+       "सफा",
+       "स्वच्छ",
+       "きれい"
+      ]
+     ],
+     "model_answer": {
+      "en": "清潔 means clean or hygienic.",
+      "ne": "清潔 को अर्थ सफा वा स्वच्छ हो।",
+      "ja": "清潔は、きれいで衛生的なことです。"
+     },
+     "probe": {
+      "en": "Why must bed sheets be kept 清潔 for elderly residents?",
+      "ne": "वृद्ध बासिन्दाका लागि ओछ्यानको तन्ना किन 清潔 राख्नुपर्छ?",
+      "ja": "なぜ高齢者のシーツを清潔に保つ必要があるのですか？"
+     }
+    },
+    {
+     "id": "hy8",
+     "skill": "comprehension",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Before giving a bath (入浴), what two things should you check?",
+      "ne": "नुहाइदिनु (入浴) अघि कुन दुई कुरा जाँच्नुपर्छ?",
+      "ja": "入浴の前に、確認することを2つ答えてください。"
+     },
+     "keywords": [
+      [
+       "water temperature",
+       "temperature",
+       "hot",
+       "warm",
+       "तापक्रम",
+       "温度",
+       "お湯"
+      ],
+      [
+       "condition",
+       "health",
+       "vital",
+       "blood pressure",
+       "feeling",
+       "fever",
+       "अवस्था",
+       "स्वास्थ्य",
+       "体調",
+       "血圧"
+      ]
+     ],
+     "model_answer": {
+      "en": "Check the water temperature and the resident's condition (vital signs, how they feel).",
+      "ne": "पानीको तापक्रम र बासिन्दाको अवस्था (भाइटल साइन, कस्तो महसुस) जाँच्नुहोस्।",
+      "ja": "お湯の温度と、入居者の体調（バイタルなど）を確認します。"
+     },
+     "probe": {
+      "en": "Why is a sudden temperature change dangerous for elderly people?",
+      "ne": "अचानक तापक्रम परिवर्तन वृद्धहरूका लागि किन खतरनाक हुन्छ?",
+      "ja": "急な温度の変化は、なぜ高齢者にとって危険なのですか？"
+     }
+    },
+    {
+     "id": "hy9",
+     "skill": "grammar",
+     "difficulty": 2,
+     "prompt": {
+      "en": "What does 手を洗ってから食べます mean? Explain ～てから.",
+      "ne": "手を洗ってから食べます को अर्थ के हो? ～てから बुझाउनुहोस्।",
+      "ja": "「手を洗ってから食べます」はどういう意味ですか。「～てから」を説明してください。"
+     },
+     "keywords": [
+      [
+       "after",
+       "then",
+       "first",
+       "पछि",
+       "後"
+      ],
+      [
+       "wash",
+       "hand",
+       "हात",
+       "洗"
+      ]
+     ],
+     "model_answer": {
+      "en": "'I eat after washing my hands.' ～てから means 'after doing ~'.",
+      "ne": "'हात धोएपछि खान्छु।' ～てから को अर्थ '~ गरेपछि' हो।",
+      "ja": "「手を洗った後で食べる」という意味です。「～てから」は順番を表します。"
+     },
+     "probe": {
+      "en": "Make your own sentence with ～てから about a care task.",
+      "ne": "हेरचाहको कामबारे ～てから प्रयोग गरेर आफ्नै वाक्य बनाउनुहोस्।",
+      "ja": "介護の仕事について「～てから」を使って文を作ってください。"
+     }
+    },
+    {
+     "id": "hy10",
+     "skill": "recall",
+     "difficulty": 2,
+     "prompt": {
+      "en": "After removing gloves, what must you do?",
+      "ne": "पञ्जा फुकालेपछि के गर्नुपर्छ?",
+      "ja": "手袋を外した後、何をしなければなりませんか？"
+     },
+     "keywords": [
+      [
+       "wash",
+       "hand",
+       "sanitize",
+       "sanitiser",
+       "sanitizer",
+       "disinfect",
+       "alcohol",
+       "हात",
+       "धु",
+       "手洗い",
+       "消毒",
+       "洗"
+      ]
+     ],
+     "model_answer": {
+      "en": "Wash or disinfect your hands: hands can get contaminated while removing gloves.",
+      "ne": "हात धुनुहोस् वा कीटाणुरहित गर्नुहोस्: पञ्जा फुकाल्दा हात दूषित हुन सक्छ।",
+      "ja": "手を洗うか消毒します。手袋を外すときに手が汚れることがあるからです。"
+     },
+     "probe": {
+      "en": "Why are gloves alone not enough to prevent infection?",
+      "ne": "संक्रमण रोक्न पञ्जा मात्र किन पर्याप्त हुँदैन?",
+      "ja": "なぜ手袋だけでは感染を防げないのですか？"
+     }
+    }
+   ],
+   "track": "caregiving"
+  },
+  {
+   "id": "emergency_protocol",
+   "title": {
+    "en": "Emergency protocol",
+    "ne": "आपतकालीन प्रक्रिया",
+    "ja": "緊急対応"
+   },
+   "vocab": [
+    {
+     "jp": "転倒",
+     "reading": "てんとう",
+     "ne": "लड्नु",
+     "en": "a fall"
+    },
+    {
+     "jp": "救急車",
+     "reading": "きゅうきゅうしゃ",
+     "ne": "एम्बुलेन्स",
+     "en": "ambulance"
+    },
+    {
+     "jp": "119",
+     "reading": "ひゃくじゅうきゅう",
+     "ne": "आपतकालीन नम्बर",
+     "en": "emergency number"
+    }
+   ],
+   "questions": [
+    {
+     "id": "em1",
+     "skill": "vocabulary",
+     "prompt": {
+      "en": "転倒 (てんとう) is a serious risk in elder care. What does it mean?",
+      "ne": "転倒 (てんとう) वृद्ध हेरचाहमा गम्भीर जोखिम हो। यसको अर्थ के हो?",
+      "ja": "「転倒」は高齢者ケアで大きなリスクです。どういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "fall",
+       "falling",
+       "fell",
+       "लड्",
+       "ढल्",
+       "घस्र"
+      ]
+     ],
+     "model_answer": {
+      "en": "転倒 means a fall.",
+      "ne": "転倒 को अर्थ लड्नु हो।",
+      "ja": "転倒は、たおれたり、ころんだりすることです。"
+     },
+     "probe": {
+      "en": "Name one thing in a room that raises the risk of 転倒.",
+      "ne": "転倒 को जोखिम बढाउने कोठाको एउटा कुरा भन्नुहोस्।",
+      "ja": "転倒の危険を高める、部屋の中のものを1つ答えてください。"
+     },
+     "difficulty": 1
+    },
+    {
+     "id": "em2",
+     "skill": "recall",
+     "prompt": {
+      "en": "What number do you call for an ambulance in Japan?",
+      "ne": "जापानमा एम्बुलेन्स बोलाउन कुन नम्बर डायल गर्ने?",
+      "ja": "日本で救急車を呼ぶ番号は何番ですか？"
+     },
+     "keywords": [
+      [
+       "119",
+       "一一九",
+       "ひゃくじゅうきゅう"
+      ]
+     ],
+     "model_answer": {
+      "en": "119.",
+      "ne": "119।",
+      "ja": "119番です。"
+     },
+     "probe": {
+      "en": "What three facts should you be ready to say when the operator answers?",
+      "ne": "अपरेटरले उठाउँदा कुन तीन कुरा भन्न तयार हुनुपर्छ?",
+      "ja": "オペレーターが出たら、どんな3つのことを伝えますか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "em3",
+     "skill": "comprehension",
+     "prompt": {
+      "en": "A resident has fallen and is not responding. Describe the first two steps.",
+      "ne": "एक बासिन्दा लडेका छन् र प्रतिक्रिया दिइरहेका छैनन्। पहिलो दुई कदम वर्णन गर्नुहोस्।",
+      "ja": "入居者が転んで、返事がありません。最初の2つの行動を説明してください。"
+     },
+     "keywords": [
+      [
+       "call",
+       "119",
+       "ambulance",
+       "emergency",
+       "help",
+       "एम्बुलेन्स",
+       "救急"
+      ],
+      [
+       "do not move",
+       "don't move",
+       "dont move",
+       "not move",
+       "stay",
+       "check",
+       "breathing",
+       "consciousness",
+       "pulse",
+       "सास",
+       "होश"
+      ]
+     ],
+     "model_answer": {
+      "en": "Call for help or 119, and do not move the resident; check breathing and consciousness.",
+      "ne": "सहयोग वा 119 मा फोन गर्नुहोस्, बासिन्दालाई नहल्लाउनुहोस्; सास र होश जाँच्नुहोस्।",
+      "ja": "助けまたは119番を呼び、入居者を動かさず、呼吸と意識を確認します。"
+     },
+     "probe": {
+      "en": "Why is moving the person quickly sometimes the wrong instinct?",
+      "ne": "किन छिटो सार्नु कहिलेकाहीँ गलत प्रतिक्रिया हुन्छ?",
+      "ja": "なぜ急いで動かすことが、時に間違いなのですか？"
+     },
+     "difficulty": 3
+    },
+    {
+     "id": "em4",
+     "skill": "vocabulary",
+     "prompt": {
+      "en": "What does 救急車 (きゅうきゅうしゃ) mean?",
+      "ne": "救急車 (きゅうきゅうしゃ) को अर्थ के हो?",
+      "ja": "「救急車」とは何ですか？説明してください。"
+     },
+     "keywords": [
+      [
+       "ambulance",
+       "एम्बुलेन्स",
+       "एम्बुलेन्स",
+       "ambulens"
+      ]
+     ],
+     "model_answer": {
+      "en": "救急車 is an ambulance.",
+      "ne": "救急車 को अर्थ एम्बुलेन्स हो।",
+      "ja": "救急車は、けが人や病人を病院へ運ぶ車です。"
+     },
+     "probe": {
+      "en": "Which number do you call to get one?",
+      "ne": "यसका लागि कुन नम्बरमा फोन गर्ने?",
+      "ja": "呼ぶには、何番に電話しますか？"
+     },
+     "difficulty": 1
+    },
+    {
+     "id": "em5",
+     "skill": "grammar",
+     "prompt": {
+      "en": "A coworker must call the nurse urgently. Which is better: 看護師を呼んでください or 看護師を呼べ? Say why.",
+      "ne": "सहकर्मीले नर्सलाई तुरुन्त बोलाउनुपर्छ। कुन राम्रो हो: 看護師を呼んでください कि 看護師を呼べ? किन?",
+      "ja": "同僚が急いで看護師を呼ぶとき、「看護師を呼んでください」と「看護師を呼べ」のどちらがよいですか？理由も答えてください。"
+     },
+     "keywords": [
+      [
+       "呼んでください",
+       "よんでください",
+       "yondekudasai",
+       "yonde kudasai",
+       "kudasai",
+       "first",
+       "former"
+      ],
+      [
+       "polite",
+       "respect",
+       "kind",
+       "command",
+       "rude",
+       "blunt",
+       "casual",
+       "impolite",
+       "आदेश",
+       "सम्मान",
+       "नम्र",
+       "अशिष्ट",
+       "丁寧",
+       "命令",
+       "失礼"
+      ]
+     ],
+     "model_answer": {
+      "en": "呼んでください is a polite request that still works in a hurry; 呼べ is a rude command.",
+      "ne": "呼んでください हतारमा पनि काम लाग्ने नम्र अनुरोध हो; 呼べ अशिष्ट आदेश हो।",
+      "ja": "「呼んでください」は急いでいても使える丁寧な依頼で、「呼べ」は失礼な命令です。"
+     },
+     "probe": {
+      "en": "How can you stay polite and fast in an emergency?",
+      "ne": "आपतकालमा नम्र र छिटो दुवै कसरी हुन सकिन्छ?",
+      "ja": "緊急のとき、丁寧さと速さをどう両立しますか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "em6",
+     "skill": "recall",
+     "prompt": {
+      "en": "After a fall, name two facts you must write in the incident report.",
+      "ne": "लडाइपछि घटना प्रतिवेदनमा लेख्नुपर्ने दुई तथ्य भन्नुहोस्।",
+      "ja": "転倒のあと、事故報告書に書くべきことを2つ答えてください。"
+     },
+     "keywords": [
+      [
+       "time",
+       "when",
+       "date",
+       "समय",
+       "मिति",
+       "いつ",
+       "時間",
+       "時刻"
+      ],
+      [
+       "place",
+       "where",
+       "location",
+       "what happened",
+       "injury",
+       "injured",
+       "condition",
+       "how",
+       "ठाउँ",
+       "कहाँ",
+       "चोट",
+       "अवस्था",
+       "場所",
+       "どこ",
+       "けが",
+       "怪我",
+       "状態"
+      ]
+     ],
+     "model_answer": {
+      "en": "When it happened, where, what happened and the resident's condition.",
+      "ne": "कहिले, कहाँ, के भयो र बासिन्दाको अवस्था।",
+      "ja": "いつ、どこで、何が起きたか、入居者の状態です。"
+     },
+     "probe": {
+      "en": "Why must the report be factual and not blame anyone?",
+      "ne": "प्रतिवेदन किन तथ्यमा आधारित हुनुपर्छ र कसैलाई दोष दिनु हुँदैन?",
+      "ja": "なぜ報告書は事実だけを書き、誰かを責めてはいけないのですか？"
+     },
+     "difficulty": 2
+    },
+    {
+     "id": "em7",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 火事 (かじ) mean?",
+      "ne": "火事 (かじ) को अर्थ के हो?",
+      "ja": "「火事（かじ）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "fire",
+       "burning",
+       "आगो",
+       "आगलागी",
+       "火"
+      ]
+     ],
+     "model_answer": {
+      "en": "火事 means a fire.",
+      "ne": "火事 को अर्थ आगलागी हो।",
+      "ja": "火事は建物などが燃えることです。"
+     },
+     "probe": {
+      "en": "What number do you call for a 火事 in Japan, and what do you say first?",
+      "ne": "जापानमा 火事 भए कुन नम्बरमा फोन गर्ने, र पहिले के भन्ने?",
+      "ja": "日本で火事のとき、何番に電話しますか。最初に何と言いますか？"
+     }
+    },
+    {
+     "id": "em8",
+     "skill": "comprehension",
+     "difficulty": 3,
+     "prompt": {
+      "en": "During an earthquake (地震, じしん), what should you do first for residents?",
+      "ne": "भूकम्प (地震) आउँदा बासिन्दाका लागि पहिले के गर्नुपर्छ?",
+      "ja": "地震のとき、入居者のために最初に何をしますか？"
+     },
+     "keywords": [
+      [
+       "protect",
+       "head",
+       "cover",
+       "under",
+       "table",
+       "desk",
+       "टाउको",
+       "जोगा",
+       "ढाक",
+       "頭",
+       "守",
+       "机"
+      ],
+      [
+       "calm",
+       "stay",
+       "don't run",
+       "do not run",
+       "wait",
+       "reassure",
+       "शान्त",
+       "नदौड",
+       "落ち着",
+       "安心"
+      ]
+     ],
+     "model_answer": {
+      "en": "Protect the residents' heads (cover them, get under a table), keep them calm, and do not run outside while it shakes.",
+      "ne": "बासिन्दाको टाउको जोगाउनुहोस् (ढाक्नुहोस्, टेबलमुनि), शान्त राख्नुहोस्, र हल्लिँदा बाहिर नदौडिनुहोस्।",
+      "ja": "頭を守り（机の下などへ）、落ち着かせ、揺れている間は外へ走らないようにします。"
+     },
+     "probe": {
+      "en": "Where is the evacuation point (避難場所) at your workplace, and why must you know it?",
+      "ne": "तपाईंको कार्यस्थलको 避難場所 कहाँ छ, र किन थाहा हुनुपर्छ?",
+      "ja": "職場の避難場所はどこですか。なぜ知っておく必要がありますか？"
+     }
+    },
+    {
+     "id": "em9",
+     "skill": "grammar",
+     "difficulty": 2,
+     "prompt": {
+      "en": "What does 大丈夫ですか (だいじょうぶですか) ask, and when do you use it?",
+      "ne": "大丈夫ですか ले के सोध्छ, र कहिले प्रयोग गर्ने?",
+      "ja": "「大丈夫ですか」は何を聞く言葉ですか。いつ使いますか？"
+     },
+     "keywords": [
+      [
+       "are you ok",
+       "are you okay",
+       "all right",
+       "alright",
+       "okay",
+       "fine",
+       "safe",
+       "ठिक",
+       "सन्चै"
+      ]
+     ],
+     "model_answer": {
+      "en": "'Are you all right?': ask it right after a fall, a cough or any sign of trouble.",
+      "ne": "'तपाईं ठिक हुनुहुन्छ?': लड्दा, खोक्दा वा समस्याको संकेत देखिनासाथ सोध्नुहोस्।",
+      "ja": "「大丈夫ですか」は相手の様子を確かめる言葉です。転倒の後などにすぐ使います。"
+     },
+     "probe": {
+      "en": "If the resident does not answer 大丈夫ですか, what is your next step?",
+      "ne": "बासिन्दाले 大丈夫ですか को जवाफ दिएनन् भने अर्को कदम के हो?",
+      "ja": "「大丈夫ですか」に返事がないとき、次に何をしますか？"
+     }
+    },
+    {
+     "id": "em10",
+     "skill": "recall",
+     "difficulty": 2,
+     "prompt": {
+      "en": "A resident starts choking (むせる) on food. Name two actions.",
+      "ne": "बासिन्दाको घाँटीमा खाना अड्कियो (むせる)। दुई कदम भन्नुहोस्।",
+      "ja": "入居者が食事中にむせています。することを2つ答えてください。"
+     },
+     "keywords": [
+      [
+       "call",
+       "help",
+       "nurse",
+       "119",
+       "staff",
+       "सहयोग",
+       "नर्स",
+       "呼"
+      ],
+      [
+       "cough",
+       "back",
+       "pat",
+       "lean forward",
+       "tap",
+       "remove",
+       "खोक",
+       "पिठ्यूँ",
+       "背中",
+       "咳"
+      ]
+     ],
+     "model_answer": {
+      "en": "Lean them forward and encourage coughing or pat their back, and call the nurse for help (119 if needed).",
+      "ne": "अगाडि झुकाएर खोक्न लगाउनुहोस् वा पिठ्यूँमा थपथपाउनुहोस्, र नर्स बोलाउनुहोस् (आवश्यक भए 119)।",
+      "ja": "前かがみにして咳を促したり背中をたたいたりし、看護師を呼びます（必要なら119）。"
+     },
+     "probe": {
+      "en": "How can a caregiver help prevent choking at meal times?",
+      "ne": "खाना खाने बेला घाँटीमा अड्किनबाट जोगाउन केयरगिभरले के गर्न सक्छ?",
+      "ja": "食事のとき、むせるのを防ぐために介護士は何ができますか？"
+     }
+    }
+   ],
+   "track": "caregiving"
+  },
+  {
+   "id": "communication",
+   "title": {
+    "en": "Workplace communication",
+    "ne": "कार्यस्थलको सञ्चार",
+    "ja": "職場のコミュニケーション"
+   },
+   "vocab": [
+    {
+     "jp": "報告",
+     "reading": "ほうこく",
+     "en": "report",
+     "ne": "रिपोर्ट"
+    },
+    {
+     "jp": "連絡",
+     "reading": "れんらく",
+     "en": "contact / inform",
+     "ne": "सम्पर्क / खबर"
+    },
+    {
+     "jp": "相談",
+     "reading": "そうだん",
+     "en": "consult",
+     "ne": "सल्लाह"
+    },
+    {
+     "jp": "申し送り",
+     "reading": "もうしおくり",
+     "en": "shift handover",
+     "ne": "पालो हस्तान्तरण"
+    }
+   ],
+   "questions": [
+    {
+     "id": "cm1",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "In Japanese workplaces, ほうれんそう means 報告・連絡・相談. What does 報告 (ほうこく) mean?",
+      "ne": "जापानी कार्यस्थलमा ほうれんそう को अर्थ 報告・連絡・相談 हो। 報告 (ほうこく) को अर्थ के हो?",
+      "ja": "日本の職場の「ほうれんそう」は報告・連絡・相談です。「報告」とは何ですか？"
+     },
+     "keywords": [
+      [
+       "report",
+       "reporting",
+       "रिपोर्ट",
+       "जानकारी",
+       "知らせ"
+      ]
+     ],
+     "model_answer": {
+      "en": "報告 means reporting: telling your supervisor what happened or the result of your work.",
+      "ne": "報告 को अर्थ रिपोर्ट गर्नु हो: के भयो वा कामको नतिजा सुपरभाइजरलाई बताउनु।",
+      "ja": "報告とは、起きたことや仕事の結果を上司に伝えることです。"
+     },
+     "probe": {
+      "en": "Why do Japanese workplaces expect a 報告 even when nothing went wrong?",
+      "ne": "केही गल्ती नभए पनि जापानी कार्यस्थलले किन 報告 अपेक्षा गर्छ?",
+      "ja": "問題がなくても、なぜ日本の職場では報告が求められるのですか？"
+     }
+    },
+    {
+     "id": "cm2",
+     "skill": "recall",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Name the three parts of ほうれんそう.",
+      "ne": "ほうれんそう का तीन भाग भन्नुहोस्।",
+      "ja": "「ほうれんそう」の3つを答えてください。"
+     },
+     "keywords": [
+      [
+       "報告",
+       "ほうこく",
+       "report",
+       "houkoku",
+       "hokoku"
+      ],
+      [
+       "連絡",
+       "れんらく",
+       "contact",
+       "inform",
+       "renraku"
+      ],
+      [
+       "相談",
+       "そうだん",
+       "consult",
+       "discuss",
+       "advice",
+       "sodan",
+       "soudan"
+      ]
+     ],
+     "model_answer": {
+      "en": "報告 (report), 連絡 (contact / inform) and 相談 (consult).",
+      "ne": "報告 (रिपोर्ट), 連絡 (सम्पर्क / खबर) र 相談 (सल्लाह)।",
+      "ja": "報告・連絡・相談です。"
+     },
+     "probe": {
+      "en": "Give one example of a 相談 you might have with your leader.",
+      "ne": "आफ्नो लिडरसँग गर्न सक्ने 相談 को एउटा उदाहरण दिनुहोस्।",
+      "ja": "リーダーにする相談の例を1つ挙げてください。"
+     }
+    },
+    {
+     "id": "cm3",
+     "skill": "grammar",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Which is correct when speaking to your supervisor: 分かった or 分かりました? Say why.",
+      "ne": "सुपरभाइजरसँग बोल्दा कुन सही हो: 分かった कि 分かりました? किन भन्नुहोस्।",
+      "ja": "上司に話すとき、「分かった」と「分かりました」のどちらが正しいですか。理由も答えてください。"
+     },
+     "keywords": [
+      [
+       "分かりました",
+       "わかりました",
+       "wakarimashita",
+       "ました",
+       "second",
+       "latter"
+      ],
+      [
+       "polite",
+       "respect",
+       "kind",
+       "command",
+       "rude",
+       "blunt",
+       "casual",
+       "impolite",
+       "आदेश",
+       "सम्मान",
+       "नम्र",
+       "अशिष्ट",
+       "丁寧",
+       "命令",
+       "失礼",
+       "supervisor",
+       "boss",
+       "敬語"
+      ]
+     ],
+     "model_answer": {
+      "en": "分かりました, because it is the polite form; 分かった is casual and sounds rude to a supervisor.",
+      "ne": "分かりました, किनभने यो नम्र रूप हो; 分かった अनौपचारिक हो र सुपरभाइजरलाई अशिष्ट सुनिन्छ।",
+      "ja": "「分かりました」です。丁寧な形だからです。「分かった」はくだけた言い方です。"
+     },
+     "probe": {
+      "en": "When is it fine to use the casual form 分かった?",
+      "ne": "अनौपचारिक 分かった कहिले प्रयोग गर्न ठिक हुन्छ?",
+      "ja": "「分かった」を使ってもいいのは、どんなときですか？"
+     }
+    },
+    {
+     "id": "cm4",
+     "skill": "comprehension",
+     "difficulty": 2,
+     "prompt": {
+      "en": "You made a small mistake in a resident's record. What should you do?",
+      "ne": "बासिन्दाको रेकर्डमा तपाईंबाट सानो गल्ती भयो। के गर्नुपर्छ?",
+      "ja": "入居者の記録で小さなミスをしました。どうしますか？"
+     },
+     "keywords": [
+      [
+       "report",
+       "tell",
+       "inform",
+       "nurse",
+       "supervisor",
+       "सूचना",
+       "जानकारी",
+       "नर्स",
+       "報告",
+       "看護",
+       "leader",
+       "बताउ"
+      ],
+      [
+       "quickly",
+       "immediately",
+       "right away",
+       "soon",
+       "at once",
+       "honest",
+       "apologize",
+       "apologise",
+       "sorry",
+       "तुरुन्त",
+       "माफी",
+       "早く",
+       "すぐ",
+       "謝"
+      ]
+     ],
+     "model_answer": {
+      "en": "Report it to your supervisor or nurse right away, honestly, and help fix it.",
+      "ne": "तुरुन्तै, इमानदारीपूर्वक सुपरभाइजर वा नर्सलाई बताउनुहोस्, र सच्याउन मद्दत गर्नुहोस्।",
+      "ja": "すぐに正直に上司や看護師に報告し、修正します。"
+     },
+     "probe": {
+      "en": "Why is hiding a small mistake dangerous in care work?",
+      "ne": "हेरचाह काममा सानो गल्ती लुकाउनु किन खतरनाक छ?",
+      "ja": "介護の仕事で小さなミスを隠すのは、なぜ危険なのですか？"
+     }
+    },
+    {
+     "id": "cm5",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 申し送り (もうしおくり) mean in a care facility?",
+      "ne": "हेरचाह केन्द्रमा 申し送り (もうしおくり) को अर्थ के हो?",
+      "ja": "介護施設で「申し送り」とは何ですか？"
+     },
+     "keywords": [
+      [
+       "handover",
+       "hand over",
+       "shift change",
+       "pass on",
+       "passing on",
+       "हस्तान्तरण",
+       "पालो",
+       "引き継"
+      ]
+     ],
+     "model_answer": {
+      "en": "申し送り is the shift handover: passing important information to the next staff.",
+      "ne": "申し送り भनेको पालो हस्तान्तरण हो: अर्को कर्मचारीलाई महत्त्वपूर्ण जानकारी दिनु।",
+      "ja": "申し送りは、次の勤務の人に大切な情報を伝えることです。"
+     },
+     "probe": {
+      "en": "What information about a resident would you include in a 申し送り?",
+      "ne": "申し送り मा बासिन्दाबारे कुन जानकारी समावेश गर्नुहुन्छ?",
+      "ja": "申し送りでは、入居者のどんな情報を伝えますか？"
+     }
+    },
+    {
+     "id": "cm6",
+     "skill": "grammar",
+     "difficulty": 3,
+     "prompt": {
+      "en": "Make 'Please teach me' polite for a senior coworker, using 教える (おしえる).",
+      "ne": "教える (おしえる) प्रयोग गरेर वरिष्ठ सहकर्मीलाई 'कृपया सिकाउनुहोस्' नम्र रूपमा भन्नुहोस्।",
+      "ja": "「教える」を使って、先輩に丁寧に「教えて」とお願いしてください。"
+     },
+     "keywords": [
+      [
+       "教えてください",
+       "おしえてください",
+       "oshiete kudasai",
+       "oshietekudasai",
+       "教えていただけますか",
+       "おしえていただけますか",
+       "oshiete itadakemasu",
+       "教えてくださいませんか"
+      ]
+     ],
+     "model_answer": {
+      "en": "教えてください, or more politely 教えていただけますか.",
+      "ne": "教えてください, वा अझ नम्र 教えていただけますか।",
+      "ja": "「教えてください」、さらに丁寧に「教えていただけますか」。"
+     },
+     "probe": {
+      "en": "Why does 教えていただけますか sound softer than 教えてください?",
+      "ne": "教えていただけますか किन 教えてください भन्दा नरम सुनिन्छ?",
+      "ja": "なぜ「教えていただけますか」は「教えてください」よりやわらかく聞こえるのですか？"
+     }
+    },
+    {
+     "id": "cm7",
+     "skill": "comprehension",
+     "difficulty": 2,
+     "prompt": {
+      "en": "A resident's family member asks you for details of the resident's illness. What should you do?",
+      "ne": "बासिन्दाको परिवारका सदस्यले रोगको विवरण सोध्छन्। के गर्नुपर्छ?",
+      "ja": "入居者の家族に病気の詳しいことを聞かれました。どうしますか？"
+     },
+     "keywords": [
+      [
+       "nurse",
+       "supervisor",
+       "leader",
+       "doctor",
+       "नर्स",
+       "看護",
+       "上司",
+       "リーダー"
+      ],
+      [
+       "privacy",
+       "private",
+       "personal",
+       "confidential",
+       "cannot",
+       "can't",
+       "refer",
+       "ask",
+       "गोपनीय",
+       "個人情報",
+       "確認"
+      ]
+     ],
+     "model_answer": {
+      "en": "Do not explain medical details yourself; politely refer them to the nurse or supervisor (privacy).",
+      "ne": "आफैं चिकित्सा विवरण नबताउनुहोस्; नम्र भएर नर्स वा सुपरभाइजरकहाँ पठाउनुहोस् (गोपनीयता)।",
+      "ja": "自分で病気の説明はせず、丁寧に看護師や上司につなぎます（個人情報）。"
+     },
+     "probe": {
+      "en": "Why is 個人情報 (personal information) taken so seriously in Japan?",
+      "ne": "जापानमा 個人情報 (व्यक्तिगत जानकारी) लाई किन यति गम्भीर रूपमा लिइन्छ?",
+      "ja": "日本ではなぜ個人情報がとても大切にされるのですか？"
+     }
+    },
+    {
+     "id": "cm8",
+     "skill": "recall",
+     "difficulty": 2,
+     "prompt": {
+      "en": "If you will be late or are sick, whom do you contact, and when?",
+      "ne": "ढिला हुने वा बिरामी हुनुभयो भने कसलाई, कहिले खबर गर्ने?",
+      "ja": "遅刻や病気のとき、だれに、いつ連絡しますか？"
+     },
+     "keywords": [
+      [
+       "supervisor",
+       "leader",
+       "boss",
+       "manager",
+       "workplace",
+       "facility",
+       "office",
+       "सुपरभाइजर",
+       "上司",
+       "リーダー",
+       "職場"
+      ],
+      [
+       "before",
+       "early",
+       "as soon as",
+       "immediately",
+       "advance",
+       "पहिले",
+       "तुरुन्त",
+       "前",
+       "すぐ",
+       "早め"
+      ]
+     ],
+     "model_answer": {
+      "en": "Contact your supervisor or the facility as early as possible, before your shift starts.",
+      "ne": "सकेसम्म चाँडो, सिफ्ट सुरु हुनुअघि सुपरभाइजर वा केन्द्रलाई खबर गर्नुहोस्।",
+      "ja": "できるだけ早く、勤務が始まる前に上司や施設に連絡します。"
+     },
+     "probe": {
+      "en": "Why is a phone call often expected rather than only a text message?",
+      "ne": "किन प्रायः सन्देश मात्र नभई फोन अपेक्षा गरिन्छ?",
+      "ja": "なぜメッセージだけでなく電話が求められることが多いのですか？"
+     }
+    },
+    {
+     "id": "cm9",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does よろしくお願いします mean when you start working with someone?",
+      "ne": "कसैसँग काम सुरु गर्दा よろしくお願いします को अर्थ के हो?",
+      "ja": "一緒に働き始めるときの「よろしくお願いします」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "please",
+       "look forward",
+       "nice to",
+       "treat me",
+       "favor",
+       "favour",
+       "kindly",
+       "thank",
+       "सहयोग",
+       "कृपया"
+      ]
+     ],
+     "model_answer": {
+      "en": "A polite phrase meaning roughly 'I look forward to working with you, please treat me kindly'.",
+      "ne": "नम्र वाक्यांश, लगभग 'सँगै काम गर्न उत्सुक छु, कृपया सहयोग गर्नुहोस्'।",
+      "ja": "「これから一緒に働くので、よろしくお願いします」という丁寧なあいさつです。"
+     },
+     "probe": {
+      "en": "In what other situations do Japanese people say よろしくお願いします?",
+      "ne": "जापानीहरूले अरू कुन अवस्थामा よろしくお願いします भन्छन्?",
+      "ja": "ほかにどんな場面で「よろしくお願いします」と言いますか？"
+     }
+    },
+    {
+     "id": "cm10",
+     "skill": "comprehension",
+     "difficulty": 3,
+     "prompt": {
+      "en": "A resident speaks quickly and you do not understand. What polite phrase can you use?",
+      "ne": "बासिन्दा छिटो बोल्छन् र तपाईंले बुझ्नुभएन। कुन नम्र वाक्यांश प्रयोग गर्न सकिन्छ?",
+      "ja": "入居者が早口で、よく分かりません。どんな丁寧な言葉を使いますか？"
+     },
+     "keywords": [
+      [
+       "もう一度",
+       "もういちど",
+       "mou ichido",
+       "moichido",
+       "one more time",
+       "once more",
+       "again",
+       "ゆっくり",
+       "slowly",
+       "yukkuri",
+       "फेरि",
+       "बिस्तारै"
+      ]
+     ],
+     "model_answer": {
+      "en": "もう一度お願いします (once more, please) or ゆっくり話してください (please speak slowly).",
+      "ne": "もう一度お願いします (फेरि एकपटक) वा ゆっくり話してください (बिस्तारै बोल्नुहोस्)।",
+      "ja": "「もう一度お願いします」や「ゆっくり話してください」と言います。"
+     },
+     "probe": {
+      "en": "Why is it better to ask again than to pretend you understood?",
+      "ne": "बुझेजस्तो गर्नुभन्दा फेरि सोध्नु किन राम्रो हो?",
+      "ja": "分かったふりをするより、聞き直すほうがいいのはなぜですか？"
+     }
+    }
+   ],
+   "track": "caregiving"
+  },
+  {
+   "id": "daily_living",
+   "title": {
+    "en": "Daily living support",
+    "ne": "दैनिक जीवन सहयोग",
+    "ja": "生活支援"
+   },
+   "vocab": [
+    {
+     "jp": "着替え",
+     "reading": "きがえ",
+     "en": "changing clothes",
+     "ne": "लुगा फेर्नु"
+    },
+    {
+     "jp": "排泄",
+     "reading": "はいせつ",
+     "en": "toileting",
+     "ne": "शौच"
+    },
+    {
+     "jp": "食事介助",
+     "reading": "しょくじかいじょ",
+     "en": "meal assistance",
+     "ne": "खाना खुवाउन सहयोग"
+    },
+    {
+     "jp": "自立支援",
+     "reading": "じりつしえん",
+     "en": "support for independence",
+     "ne": "आत्मनिर्भरता सहयोग"
+    }
+   ],
+   "questions": [
+    {
+     "id": "dl1",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 着替え (きがえ) mean?",
+      "ne": "着替え (きがえ) को अर्थ के हो?",
+      "ja": "「着替え（きがえ）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "change clothes",
+       "changing clothes",
+       "change of clothes",
+       "dressing",
+       "get dressed",
+       "clothes",
+       "लुगा",
+       "फेर",
+       "服"
+      ]
+     ],
+     "model_answer": {
+      "en": "着替え means changing clothes.",
+      "ne": "着替え को अर्थ लुगा फेर्नु हो।",
+      "ja": "着替えは服を替えることです。"
+     },
+     "probe": {
+      "en": "What can you do to keep a resident warm and private during 着替え?",
+      "ne": "着替え गर्दा बासिन्दालाई न्यानो र गोपनीय राख्न के गर्न सकिन्छ?",
+      "ja": "着替えのとき、入居者を寒くさせず、プライバシーを守るには何ができますか？"
+     }
+    },
+    {
+     "id": "dl2",
+     "skill": "vocabulary",
+     "difficulty": 2,
+     "prompt": {
+      "en": "What does 排泄 (はいせつ) refer to in care work?",
+      "ne": "हेरचाह काममा 排泄 (はいせつ) ले के जनाउँछ?",
+      "ja": "介護で「排泄（はいせつ）」とは何のことですか？"
+     },
+     "keywords": [
+      [
+       "toilet",
+       "excretion",
+       "urination",
+       "urine",
+       "defecation",
+       "bowel",
+       "pee",
+       "poo",
+       "शौच",
+       "दिसा",
+       "पिसाब",
+       "トイレ",
+       "尿",
+       "便"
+      ]
+     ],
+     "model_answer": {
+      "en": "排泄 means toileting: urination and bowel movements.",
+      "ne": "排泄 को अर्थ शौच हो: पिसाब र दिसा।",
+      "ja": "排泄とは、おしっこや便を出すことです。"
+     },
+     "probe": {
+      "en": "Why should a caregiver record changes in 排泄?",
+      "ne": "केयरगिभरले 排泄 मा आएका परिवर्तन किन लेख्नुपर्छ?",
+      "ja": "なぜ排泄の変化を記録する必要があるのですか？"
+     }
+    },
+    {
+     "id": "dl3",
+     "skill": "comprehension",
+     "difficulty": 2,
+     "prompt": {
+      "en": "A resident's right side is weak after a stroke. When putting on a shirt, which arm goes in first?",
+      "ne": "स्ट्रोकपछि बासिन्दाको दायाँ भाग कमजोर छ। सर्ट लगाउँदा कुन हात पहिले छिराउने?",
+      "ja": "脳卒中で右半身がまひしている入居者に服を着せるとき、どちらの腕から先に通しますか？"
+     },
+     "keywords": [
+      [
+       "right",
+       "weak",
+       "affected",
+       "paralyzed",
+       "paralysed",
+       "दायाँ",
+       "कमजोर",
+       "右",
+       "患側",
+       "まひ"
+      ]
+     ],
+     "model_answer": {
+      "en": "The weak (affected) right arm goes in first; when undressing, start with the strong side (脱健着患).",
+      "ne": "कमजोर (प्रभावित) दायाँ हात पहिले; फुकाल्दा बलियो भागबाट सुरु गर्नुहोस् (脱健着患)।",
+      "ja": "まひのある右腕から着ます。脱ぐときは健康な側から脱ぎます（脱健着患）。"
+     },
+     "probe": {
+      "en": "Why does starting with the weak side reduce pain and risk?",
+      "ne": "कमजोर भागबाट सुरु गर्दा दुखाइ र जोखिम किन घट्छ?",
+      "ja": "まひのある側から着ると、なぜ痛みや危険が少ないのですか？"
+     }
+    },
+    {
+     "id": "dl4",
+     "skill": "recall",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Name two things to check during meal assistance (食事介助).",
+      "ne": "खाना खुवाउन सहयोग (食事介助) गर्दा जाँच्नुपर्ने दुई कुरा भन्नुहोस्।",
+      "ja": "食事介助のときに確認することを2つ答えてください。"
+     },
+     "keywords": [
+      [
+       "posture",
+       "sitting",
+       "upright",
+       "position",
+       "head",
+       "बस",
+       "आसन",
+       "姿勢"
+      ],
+      [
+       "swallow",
+       "chew",
+       "choking",
+       "pace",
+       "slowly",
+       "temperature",
+       "amount",
+       "small",
+       "निल",
+       "चपाउ",
+       "बिस्तारै",
+       "飲み込",
+       "ペース",
+       "むせ"
+      ]
+     ],
+     "model_answer": {
+      "en": "Their posture (sitting upright, chin slightly down) and that they swallow safely at their own pace.",
+      "ne": "बस्ने आसन (सिधा बस्ने, चिउँडो अलि तल) र आफ्नै गतिमा सुरक्षित निल्छन् कि भनेर।",
+      "ja": "姿勢（まっすぐ座る、あごを少し引く）と、自分のペースで安全に飲み込めているかです。"
+     },
+     "probe": {
+      "en": "Why is a slightly lowered chin safer when swallowing?",
+      "ne": "निल्दा चिउँडो अलि तल राख्नु किन सुरक्षित हुन्छ?",
+      "ja": "飲み込むとき、あごを少し引くと安全なのはなぜですか？"
+     }
+    },
+    {
+     "id": "dl5",
+     "skill": "grammar",
+     "difficulty": 2,
+     "prompt": {
+      "en": "What does 食べやすいですか mean? Explain ～やすい.",
+      "ne": "食べやすいですか को अर्थ के हो? ～やすい बुझाउनुहोस्।",
+      "ja": "「食べやすいですか」はどういう意味ですか。「～やすい」を説明してください。"
+     },
+     "keywords": [
+      [
+       "easy",
+       "easier",
+       "सजिलो",
+       "簡単"
+      ],
+      [
+       "eat",
+       "food",
+       "खान",
+       "食"
+      ]
+     ],
+     "model_answer": {
+      "en": "'Is it easy to eat?' ～やすい after a verb stem means 'easy to ~'.",
+      "ne": "'खान सजिलो छ?' क्रियापछि ～やすい को अर्थ '~ गर्न सजिलो' हो।",
+      "ja": "「食べるのが楽ですか」という意味です。「～やすい」は「～するのが簡単」です。"
+     },
+     "probe": {
+      "en": "What would 歩きやすい (あるきやすい) mean?",
+      "ne": "歩きやすい (あるきやすい) को अर्थ के होला?",
+      "ja": "「歩きやすい」はどういう意味になりますか？"
+     }
+    },
+    {
+     "id": "dl6",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 起床 (きしょう) mean?",
+      "ne": "起床 (きしょう) को अर्थ के हो?",
+      "ja": "「起床（きしょう）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "wake",
+       "waking",
+       "get up",
+       "getting up",
+       "rise",
+       "rising",
+       "उठ",
+       "起き"
+      ]
+     ],
+     "model_answer": {
+      "en": "起床 means waking up / getting up.",
+      "ne": "起床 को अर्थ उठ्नु हो।",
+      "ja": "起床は、朝起きることです。"
+     },
+     "probe": {
+      "en": "What would you check when helping a resident at 起床 time?",
+      "ne": "起床 को बेला बासिन्दालाई सहयोग गर्दा के जाँच्नुहुन्छ?",
+      "ja": "起床のとき、入居者の何を確認しますか？"
+     }
+    },
+    {
+     "id": "dl7",
+     "skill": "comprehension",
+     "difficulty": 3,
+     "prompt": {
+      "en": "A resident wants to do things by themselves but is slow. What is the caregiver's approach (自立支援)?",
+      "ne": "बासिन्दा आफैं काम गर्न चाहन्छन् तर ढिलो छन्। केयरगिभरको तरिका (自立支援) के हो?",
+      "ja": "入居者が自分でしたいけれど、時間がかかります。介護士はどうしますか（自立支援）？"
+     },
+     "keywords": [
+      [
+       "support",
+       "wait",
+       "let them",
+       "allow",
+       "encourage",
+       "independence",
+       "independent",
+       "only help",
+       "सहयोग",
+       "पर्ख",
+       "आफैं",
+       "見守",
+       "自立",
+       "待"
+      ],
+      [
+       "safe",
+       "safety",
+       "watch",
+       "observe",
+       "nearby",
+       "सुरक्षित",
+       "हेर",
+       "安全"
+      ]
+     ],
+     "model_answer": {
+      "en": "Wait and encourage them to do what they can, help only where needed, and watch nearby for safety.",
+      "ne": "पर्खनुहोस् र सक्ने काम आफैं गर्न प्रोत्साहन दिनुहोस्, आवश्यक ठाउँमा मात्र सहयोग गर्नुहोस्, र सुरक्षाका लागि नजिकै हेर्नुहोस्।",
+      "ja": "できることは自分でしてもらい、必要なところだけ手伝い、安全のために見守ります。"
+     },
+     "probe": {
+      "en": "How does doing everything for a resident harm them in the long run?",
+      "ne": "बासिन्दाका लागि सबै काम आफैं गरिदिँदा लामो समयमा कसरी हानि हुन्छ?",
+      "ja": "何でも代わりにしてしまうと、長い目で見てどんな問題がありますか？"
+     }
+    },
+    {
+     "id": "dl8",
+     "skill": "recall",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Name two ways to protect a resident's privacy during toileting.",
+      "ne": "शौच गराउँदा बासिन्दाको गोपनीयता जोगाउने दुई तरिका भन्नुहोस्।",
+      "ja": "排泄介助のとき、プライバシーを守る方法を2つ答えてください。"
+     },
+     "keywords": [
+      [
+       "door",
+       "curtain",
+       "close",
+       "cover",
+       "towel",
+       "ढोका",
+       "पर्दा",
+       "ढाक",
+       "カーテン",
+       "ドア",
+       "タオル"
+      ],
+      [
+       "knock",
+       "ask",
+       "permission",
+       "voice",
+       "quiet",
+       "outside",
+       "wait",
+       "ढकढक",
+       "सोध",
+       "अनुमति",
+       "声",
+       "待"
+      ]
+     ],
+     "model_answer": {
+      "en": "Close the door or curtain and cover them with a towel; speak quietly and wait outside if they can manage alone.",
+      "ne": "ढोका वा पर्दा बन्द गर्नुहोस् र तौलियाले ढाक्नुहोस्; बिस्तारै बोल्नुहोस् र आफैं सक्छन् भने बाहिर पर्खनुहोस्।",
+      "ja": "ドアやカーテンを閉め、タオルをかけます。小さな声で話し、一人でできる時は外で待ちます。"
+     },
+     "probe": {
+      "en": "Why does privacy matter so much for a resident's dignity?",
+      "ne": "बासिन्दाको सम्मानका लागि गोपनीयता किन यति महत्त्वपूर्ण छ?",
+      "ja": "なぜプライバシーは入居者の尊厳にとって大切なのですか？"
+     }
+    },
+    {
+     "id": "dl9",
+     "skill": "grammar",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Which is polite for 'Shall we go to the toilet?': トイレに行きましょうか or トイレに行け? Say why.",
+      "ne": "'शौचालय जाऔं?' का लागि कुन नम्र हो: トイレに行きましょうか कि トイレに行け? किन भन्नुहोस्।",
+      "ja": "「トイレに行きましょうか」と「トイレに行け」、どちらが丁寧ですか。理由も答えてください。"
+     },
+     "keywords": [
+      [
+       "行きましょうか",
+       "いきましょうか",
+       "ikimashouka",
+       "ikimashoka",
+       "ましょうか",
+       "first",
+       "former"
+      ],
+      [
+       "polite",
+       "respect",
+       "kind",
+       "command",
+       "rude",
+       "blunt",
+       "casual",
+       "impolite",
+       "आदेश",
+       "सम्मान",
+       "नम्र",
+       "अशिष्ट",
+       "丁寧",
+       "命令",
+       "失礼"
+      ]
+     ],
+     "model_answer": {
+      "en": "トイレに行きましょうか, because ～ましょうか is a polite offer; 行け is a rude command.",
+      "ne": "トイレに行きましょうか, किनभने ～ましょうか नम्र प्रस्ताव हो; 行け अशिष्ट आदेश हो।",
+      "ja": "「行きましょうか」です。「～ましょうか」は丁寧な誘いで、「行け」は命令だからです。"
+     },
+     "probe": {
+      "en": "Make another ～ましょうか offer you could use in daily care.",
+      "ne": "दैनिक हेरचाहमा प्रयोग गर्न सकिने अर्को ～ましょうか प्रस्ताव बनाउनुहोस्।",
+      "ja": "日常の介護で使える「～ましょうか」の文をもう一つ作ってください。"
+     }
+    },
+    {
+     "id": "dl10",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 歯みがき (はみがき) mean?",
+      "ne": "歯みがき (はみがき) को अर्थ के हो?",
+      "ja": "「歯みがき」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "brush",
+       "brushing",
+       "teeth",
+       "tooth",
+       "दाँत",
+       "歯"
+      ]
+     ],
+     "model_answer": {
+      "en": "歯みがき means brushing teeth (part of oral care, 口腔ケア).",
+      "ne": "歯みがき को अर्थ दाँत माझ्नु हो (मुखको हेरचाह, 口腔ケア)।",
+      "ja": "歯みがきは歯をきれいにすることです（口腔ケア）。"
+     },
+     "probe": {
+      "en": "Why is oral care important for preventing pneumonia in elderly people?",
+      "ne": "वृद्धहरूमा निमोनिया रोक्न मुखको हेरचाह किन महत्त्वपूर्ण छ?",
+      "ja": "高齢者の肺炎を防ぐために、なぜ口腔ケアが大切なのですか？"
+     }
+    }
+   ],
+   "track": "caregiving"
+  },
+  {
+   "id": "jlpt_n5",
+   "track": "jlpt",
+   "jlpt_level": "N5",
+   "title": {
+    "en": "JLPT N5 essentials",
+    "ne": "JLPT N5 आधारभूत",
+    "ja": "JLPT N5 きそ"
+   },
+   "vocab": [
+    {
+     "jp": "友達",
+     "reading": "ともだち",
+     "en": "friend",
+     "ne": "साथी"
+    },
+    {
+     "jp": "学校",
+     "reading": "がっこう",
+     "en": "school",
+     "ne": "विद्यालय"
+    },
+    {
+     "jp": "高い",
+     "reading": "たかい",
+     "en": "expensive / tall",
+     "ne": "महँगो / अग्लो"
+    },
+    {
+     "jp": "毎朝",
+     "reading": "まいあさ",
+     "en": "every morning",
+     "ne": "हरेक बिहान"
+    }
+   ],
+   "questions": [
+    {
+     "id": "n5_1",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 友達 (ともだち) mean?",
+      "ne": "友達 (ともだち) को अर्थ के हो?",
+      "ja": "「友達（ともだち）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "friend",
+       "साथी",
+       "मित्र"
+      ]
+     ],
+     "model_answer": {
+      "en": "友達 means friend.",
+      "ne": "友達 को अर्थ साथी हो।",
+      "ja": "友達は、なかのいい人のことです。"
+     },
+     "probe": {
+      "en": "Say 'My friend is Nepali' in Japanese.",
+      "ne": "जापानीमा 'मेरो साथी नेपाली हो' भन्नुहोस्।",
+      "ja": "「わたしの友達はネパール人です」と言ってみましょう。"
+     }
+    },
+    {
+     "id": "n5_2",
+     "skill": "recall",
+     "difficulty": 1,
+     "prompt": {
+      "en": "How do you read 学校, and what does it mean?",
+      "ne": "学校 कसरी पढ्ने, र यसको अर्थ के हो?",
+      "ja": "「学校」の読み方と意味を答えてください。"
+     },
+     "keywords": [
+      [
+       "がっこう",
+       "gakkou",
+       "gakko",
+       "gakkō"
+      ],
+      [
+       "school",
+       "विद्यालय",
+       "स्कुल"
+      ]
+     ],
+     "model_answer": {
+      "en": "がっこう (gakkō): school.",
+      "ne": "がっこう (गाक्को): विद्यालय।",
+      "ja": "「がっこう」と読みます。勉強するところです。"
+     },
+     "probe": {
+      "en": "What is the kanji 学 also used in? (Hint: 学生)",
+      "ne": "学 कान्जी अरू कुन शब्दमा आउँछ? (सङ्केत: 学生)",
+      "ja": "「学」はほかにどんなことばに使いますか？（ヒント：学生）"
+     }
+    },
+    {
+     "id": "n5_3",
+     "skill": "grammar",
+     "difficulty": 1,
+     "prompt": {
+      "en": "Fill in the particle: わたし＿学生です (I am a student).",
+      "ne": "विभक्ति भर्नुहोस्: わたし＿学生です (म विद्यार्थी हुँ)।",
+      "ja": "助詞を入れてください：わたし＿学生です。"
+     },
+     "keywords": [
+      [
+       "は",
+       "wa",
+       "(ha)"
+      ]
+     ],
+     "model_answer": {
+      "en": "は (read 'wa'): わたしは学生です.",
+      "ne": "は ('वा' पढिन्छ): わたしは学生です।",
+      "ja": "「は」です。「わたしは学生です」。"
+     },
+     "probe": {
+      "en": "Why is は read 'wa' here and not 'ha'?",
+      "ne": "यहाँ は लाई 'हा' नभई 'वा' किन पढिन्छ?",
+      "ja": "ここで「は」を「わ」と読むのはなぜですか？"
+     }
+    },
+    {
+     "id": "n5_4",
+     "skill": "grammar",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What is the polite past tense of 行きます (to go)?",
+      "ne": "行きます (जानु) को नम्र भूतकाल के हो?",
+      "ja": "「行きます」の過去形（ていねい）は何ですか？"
+     },
+     "keywords": [
+      [
+       "行きました",
+       "いきました",
+       "ikimashita"
+      ]
+     ],
+     "model_answer": {
+      "en": "行きました (ikimashita): went.",
+      "ne": "行きました (इकिमाशिता): गएँ।",
+      "ja": "「行きました」です。"
+     },
+     "probe": {
+      "en": "How do you say 'did not go' politely?",
+      "ne": "'गइनँ' नम्र रूपमा कसरी भन्ने?",
+      "ja": "「行かなかった」をていねいに言うと？"
+     }
+    },
+    {
+     "id": "n5_5",
+     "skill": "comprehension",
+     "difficulty": 1,
+     "prompt": {
+      "en": "Read: きのう、スーパーでりんごを三つ買いました。 What did the person buy, and how many?",
+      "ne": "पढ्नुहोस्: きのう、スーパーでりんごを三つ買いました。 व्यक्तिले के र कतिवटा किने?",
+      "ja": "「きのう、スーパーでりんごを三つ買いました。」何をいくつ買いましたか？"
+     },
+     "keywords": [
+      [
+       "apple",
+       "स्याउ",
+       "りんご",
+       "リンゴ"
+      ],
+      [
+       "three",
+       "3",
+       "तीन",
+       "三",
+       "みっつ"
+      ]
+     ],
+     "model_answer": {
+      "en": "Three apples, at the supermarket yesterday.",
+      "ne": "हिजो सुपरमार्केटमा तीनवटा स्याउ।",
+      "ja": "きのう、スーパーでりんごを三つ買いました。"
+     },
+     "probe": {
+      "en": "Which word in the sentence tells you the time?",
+      "ne": "वाक्यको कुन शब्दले समय बताउँछ?",
+      "ja": "時をあらわすことばはどれですか？"
+     }
+    },
+    {
+     "id": "n5_6",
+     "skill": "vocabulary",
+     "difficulty": 1,
+     "prompt": {
+      "en": "What does 高い (たかい) mean? Give one meaning.",
+      "ne": "高い (たかい) को अर्थ के हो? एउटा अर्थ दिनुहोस्।",
+      "ja": "「高い（たかい）」の意味を一つ答えてください。"
+     },
+     "keywords": [
+      [
+       "expensive",
+       "tall",
+       "high",
+       "महँगो",
+       "अग्लो",
+       "उच्च"
+      ]
+     ],
+     "model_answer": {
+      "en": "高い means expensive, or tall / high.",
+      "ne": "高い को अर्थ महँगो, वा अग्लो / उच्च हो।",
+      "ja": "「高い」は値段が高い、または背や山が高いという意味です。"
+     },
+     "probe": {
+      "en": "What is the opposite of 高い for price?",
+      "ne": "मूल्यका लागि 高い को विपरीत शब्द के हो?",
+      "ja": "値段の「高い」の反対は何ですか？"
+     }
+    },
+    {
+     "id": "n5_7",
+     "skill": "grammar",
+     "difficulty": 1,
+     "prompt": {
+      "en": "Say politely: 'I don't eat meat.' (肉 = meat, 食べます = eat)",
+      "ne": "नम्र रूपमा भन्नुहोस्: 'म मासु खान्नँ।' (肉 = मासु)",
+      "ja": "ていねいに言ってください：「肉を食べない」。"
+     },
+     "keywords": [
+      [
+       "食べません",
+       "たべません",
+       "tabemasen"
+      ]
+     ],
+     "model_answer": {
+      "en": "肉を食べません (niku o tabemasen).",
+      "ne": "肉を食べません (निकु ओ ताबेमासेन)।",
+      "ja": "「肉を食べません」です。"
+     },
+     "probe": {
+      "en": "How would you say 'I don't drink alcohol'? (お酒, 飲みます)",
+      "ne": "'म रक्सी पिउँदिनँ' कसरी भन्ने? (お酒, 飲みます)",
+      "ja": "「お酒を飲まない」をていねいに言うと？"
+     }
+    },
+    {
+     "id": "n5_8",
+     "skill": "recall",
+     "difficulty": 1,
+     "prompt": {
+      "en": "Give the Japanese readings of 1, 2 and 3.",
+      "ne": "१, २ र ३ को जापानी उच्चारण दिनुहोस्।",
+      "ja": "1、2、3の読み方を答えてください。"
+     },
+     "keywords": [
+      [
+       "いち",
+       "ichi",
+       "一"
+      ],
+      [
+       "に",
+       "ni",
+       "二"
+      ],
+      [
+       "さん",
+       "san",
+       "三"
+      ]
+     ],
+     "model_answer": {
+      "en": "いち (ichi), に (ni), さん (san).",
+      "ne": "いち (इचि), に (नि), さん (सान)।",
+      "ja": "いち、に、さん です。"
+     },
+     "probe": {
+      "en": "How do you read 10 and 100?",
+      "ne": "१० र १०० कसरी पढ्ने?",
+      "ja": "10と100はどう読みますか？"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jlpt_n4",
+   "track": "jlpt",
+   "jlpt_level": "N4",
+   "title": {
+    "en": "JLPT N4 building blocks",
+    "ne": "JLPT N4 आधार",
+    "ja": "JLPT N4 ステップアップ"
+   },
+   "vocab": [
+    {
+     "jp": "経験",
+     "reading": "けいけん",
+     "en": "experience",
+     "ne": "अनुभव"
+    },
+    {
+     "jp": "心配",
+     "reading": "しんぱい",
+     "en": "worry",
+     "ne": "चिन्ता"
+    },
+    {
+     "jp": "急ぐ",
+     "reading": "いそぐ",
+     "en": "to hurry",
+     "ne": "हतार गर्नु"
+    },
+    {
+     "jp": "会議",
+     "reading": "かいぎ",
+     "en": "meeting",
+     "ne": "बैठक"
+    }
+   ],
+   "questions": [
+    {
+     "id": "n4_1",
+     "skill": "vocabulary",
+     "difficulty": 2,
+     "prompt": {
+      "en": "What does 経験 (けいけん) mean?",
+      "ne": "経験 (けいけん) को अर्थ के हो?",
+      "ja": "「経験（けいけん）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "experience",
+       "अनुभव"
+      ]
+     ],
+     "model_answer": {
+      "en": "経験 means experience.",
+      "ne": "経験 को अर्थ अनुभव हो।",
+      "ja": "経験は、実際にやったことです。"
+     },
+     "probe": {
+      "en": "Make a sentence about your caregiving 経験.",
+      "ne": "आफ्नो केयरगिभिङ 経験 बारे एउटा वाक्य बनाउनुहोस्।",
+      "ja": "介護の経験について文を作ってください。"
+     }
+    },
+    {
+     "id": "n4_2",
+     "skill": "grammar",
+     "difficulty": 2,
+     "prompt": {
+      "en": "What does ～たことがあります mean, as in 日本へ行ったことがあります?",
+      "ne": "日本へ行ったことがあります मा ～たことがあります को अर्थ के हो?",
+      "ja": "「日本へ行ったことがあります」の「～たことがあります」はどんな意味ですか？"
+     },
+     "keywords": [
+      [
+       "have been",
+       "have ever",
+       "experience",
+       "have done",
+       "before",
+       "अनुभव",
+       "गएको छु",
+       "経験"
+      ]
+     ],
+     "model_answer": {
+      "en": "It expresses past experience: 'I have been to Japan (before).'",
+      "ne": "यसले विगतको अनुभव जनाउँछ: 'म जापान गएको छु।'",
+      "ja": "経験を表します。「日本に行った経験がある」という意味です。"
+     },
+     "probe": {
+      "en": "How do you say 'I have never eaten sushi'?",
+      "ne": "'मैले कहिल्यै सुशी खाएको छैन' कसरी भन्ने?",
+      "ja": "「すしを食べたことがない」をていねいに言うと？"
+     }
+    },
+    {
+     "id": "n4_3",
+     "skill": "grammar",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Say 'You must not smoke here' with ～てはいけません (吸う = to smoke).",
+      "ne": "～てはいけません प्रयोग गरेर 'यहाँ चुरोट पिउनु हुँदैन' भन्नुहोस् (吸う = पिउनु)।",
+      "ja": "「～てはいけません」で「ここでたばこを吸う」を禁止してください。"
+     },
+     "keywords": [
+      [
+       "吸ってはいけません",
+       "すってはいけません",
+       "sutte wa ikemasen",
+       "suttewa ikemasen",
+       "てはいけません"
+      ]
+     ],
+     "model_answer": {
+      "en": "ここでたばこを吸ってはいけません.",
+      "ne": "ここでたばこを吸ってはいけません।",
+      "ja": "「ここでたばこを吸ってはいけません」です。"
+     },
+     "probe": {
+      "en": "Where in a care facility might you see this rule?",
+      "ne": "हेरचाह केन्द्रमा यो नियम कहाँ देख्न सकिन्छ?",
+      "ja": "介護施設のどこでこのルールを見ますか？"
+     }
+    },
+    {
+     "id": "n4_4",
+     "skill": "comprehension",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Read: 雨が降りそうなので、かさを持っていきます。 Why is the person taking an umbrella?",
+      "ne": "पढ्नुहोस्: 雨が降りそうなので、かさを持っていきます。 व्यक्तिले छाता किन लैजाँदैछ?",
+      "ja": "「雨が降りそうなので、かさを持っていきます。」なぜかさを持っていきますか？"
+     },
+     "keywords": [
+      [
+       "rain",
+       "पानी",
+       "雨",
+       "あめ"
+      ],
+      [
+       "looks like",
+       "seems",
+       "likely",
+       "might",
+       "going to",
+       "जस्तो",
+       "सक्छ",
+       "そう"
+      ]
+     ],
+     "model_answer": {
+      "en": "Because it looks like it is going to rain (～そう = looks like).",
+      "ne": "किनभने पानी पर्ला जस्तो छ (～そう = जस्तो देखिन्छ)।",
+      "ja": "雨が降りそうだからです。「～そう」は様子を表します。"
+     },
+     "probe": {
+      "en": "What does なので add to the sentence?",
+      "ne": "なので ले वाक्यमा के थप्छ?",
+      "ja": "「なので」は何を表しますか？"
+     }
+    },
+    {
+     "id": "n4_5",
+     "skill": "recall",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Read 心配 and give its meaning.",
+      "ne": "心配 पढ्नुहोस् र यसको अर्थ दिनुहोस्।",
+      "ja": "「心配」の読み方と意味を答えてください。"
+     },
+     "keywords": [
+      [
+       "しんぱい",
+       "shinpai",
+       "shimpai"
+      ],
+      [
+       "worry",
+       "worried",
+       "anxious",
+       "concern",
+       "चिन्ता"
+      ]
+     ],
+     "model_answer": {
+      "en": "しんぱい (shinpai): worry.",
+      "ne": "しんぱい (शिनपाइ): चिन्ता।",
+      "ja": "「しんぱい」と読みます。気になって不安なことです。"
+     },
+     "probe": {
+      "en": "How would you tell a resident 'Please don't worry'?",
+      "ne": "बासिन्दालाई 'चिन्ता नगर्नुहोस्' कसरी भन्ने?",
+      "ja": "入居者に「心配しないで」とていねいに言うと？"
+     }
+    },
+    {
+     "id": "n4_6",
+     "skill": "grammar",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Change 食べる into the polite potential form (can eat).",
+      "ne": "食べる लाई नम्र सक्ने रूप (खान सक्छु) मा बदल्नुहोस्।",
+      "ja": "「食べる」を可能形（ていねい）にしてください。"
+     },
+     "keywords": [
+      [
+       "食べられます",
+       "たべられます",
+       "taberaremasu",
+       "食べられる",
+       "たべられる"
+      ]
+     ],
+     "model_answer": {
+      "en": "食べられます (taberaremasu): can eat.",
+      "ne": "食べられます (ताबेरारेमासु): खान सक्छु।",
+      "ja": "「食べられます」です。"
+     },
+     "probe": {
+      "en": "Make the potential form of 書く.",
+      "ne": "書く को सक्ने रूप बनाउनुहोस्।",
+      "ja": "「書く」の可能形は？"
+     }
+    },
+    {
+     "id": "n4_7",
+     "skill": "vocabulary",
+     "difficulty": 2,
+     "prompt": {
+      "en": "What does 急いでください mean?",
+      "ne": "急いでください को अर्थ के हो?",
+      "ja": "「急いでください」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "hurry",
+       "quick",
+       "quickly",
+       "fast",
+       "छिटो",
+       "हतार"
+      ]
+     ],
+     "model_answer": {
+      "en": "'Please hurry.'",
+      "ne": "'कृपया छिटो गर्नुहोस्।'",
+      "ja": "「早くしてください」という意味です。"
+     },
+     "probe": {
+      "en": "Why might this sound pushy to an elderly resident?",
+      "ne": "यो वृद्ध बासिन्दालाई किन कडा सुनिन सक्छ?",
+      "ja": "高齢の入居者にはなぜ強く聞こえることがありますか？"
+     }
+    },
+    {
+     "id": "n4_8",
+     "skill": "comprehension",
+     "difficulty": 2,
+     "prompt": {
+      "en": "Read: 部長は会議中なので、あとで電話してください。 What should you do, and why?",
+      "ne": "पढ्नुहोस्: 部長は会議中なので、あとで電話してください。 के गर्नुपर्छ, र किन?",
+      "ja": "「部長は会議中なので、あとで電話してください。」どうしますか。なぜですか？"
+     },
+     "keywords": [
+      [
+       "later",
+       "after",
+       "पछि",
+       "あとで",
+       "後で"
+      ],
+      [
+       "meeting",
+       "busy",
+       "बैठक",
+       "会議"
+      ]
+     ],
+     "model_answer": {
+      "en": "Call later, because the manager is in a meeting.",
+      "ne": "पछि फोन गर्नुहोस्, किनभने प्रबन्धक बैठकमा हुनुहुन्छ।",
+      "ja": "部長が会議中なので、あとで電話します。"
+     },
+     "probe": {
+      "en": "How would you ask when the meeting ends?",
+      "ne": "बैठक कहिले सकिन्छ भनेर कसरी सोध्ने?",
+      "ja": "会議が何時に終わるか、どう聞きますか？"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jlpt_n3",
+   "track": "jlpt",
+   "jlpt_level": "N3",
+   "title": {
+    "en": "JLPT N3 everyday Japanese",
+    "ne": "JLPT N3 दैनिक जापानी",
+    "ja": "JLPT N3 日常の日本語"
+   },
+   "vocab": [
+    {
+     "jp": "締め切り",
+     "reading": "しめきり",
+     "en": "deadline",
+     "ne": "अन्तिम मिति"
+    },
+    {
+     "jp": "留守",
+     "reading": "るす",
+     "en": "away from home",
+     "ne": "घरमा नहुनु"
+    },
+    {
+     "jp": "我慢",
+     "reading": "がまん",
+     "en": "endurance",
+     "ne": "सहनशीलता"
+    },
+    {
+     "jp": "効果",
+     "reading": "こうか",
+     "en": "effect",
+     "ne": "प्रभाव"
+    }
+   ],
+   "questions": [
+    {
+     "id": "n3_1",
+     "skill": "vocabulary",
+     "difficulty": 3,
+     "prompt": {
+      "en": "What does 締め切り (しめきり) mean?",
+      "ne": "締め切り (しめきり) को अर्थ के हो?",
+      "ja": "「締め切り（しめきり）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "deadline",
+       "due date",
+       "cutoff",
+       "cut-off",
+       "अन्तिम मिति",
+       "म्याद"
+      ]
+     ],
+     "model_answer": {
+      "en": "締め切り means deadline.",
+      "ne": "締め切り को अर्थ अन्तिम मिति हो।",
+      "ja": "締め切りは、提出などの最後の日時です。"
+     },
+     "probe": {
+      "en": "What do you say if you cannot meet a 締め切り?",
+      "ne": "締め切り भित्र सक्न सकिँदैन भने के भन्ने?",
+      "ja": "締め切りに間に合わないとき、何と言いますか？"
+     }
+    },
+    {
+     "id": "n3_2",
+     "skill": "grammar",
+     "difficulty": 3,
+     "prompt": {
+      "en": "What does ～ようにしています express, as in 毎日歩くようにしています?",
+      "ne": "毎日歩くようにしています मा ～ようにしています ले के जनाउँछ?",
+      "ja": "「毎日歩くようにしています」の「～ようにしています」は何を表しますか？"
+     },
+     "keywords": [
+      [
+       "try",
+       "trying",
+       "effort",
+       "habit",
+       "make sure",
+       "प्रयास",
+       "बानी",
+       "努力",
+       "習慣"
+      ]
+     ],
+     "model_answer": {
+      "en": "A conscious effort or habit: 'I try to walk every day.'",
+      "ne": "सचेत प्रयास वा बानी: 'म हरेक दिन हिँड्ने प्रयास गर्छु।'",
+      "ja": "努力や習慣を表します。「毎日歩くように努力している」という意味です。"
+     },
+     "probe": {
+      "en": "Make a sentence with ～ようにしています about your studies.",
+      "ne": "आफ्नो पढाइबारे ～ようにしています को वाक्य बनाउनुहोस्।",
+      "ja": "勉強について「～ようにしています」の文を作ってください。"
+     }
+    },
+    {
+     "id": "n3_3",
+     "skill": "grammar",
+     "difficulty": 3,
+     "prompt": {
+      "en": "What does 雨が降ったら、行きません mean? Explain ～たら.",
+      "ne": "雨が降ったら、行きません को अर्थ के हो? ～たら बुझाउनुहोस्।",
+      "ja": "「雨が降ったら、行きません」の意味と「～たら」を説明してください。"
+     },
+     "keywords": [
+      [
+       "if",
+       "when",
+       "यदि",
+       "भने"
+      ],
+      [
+       "rain",
+       "पानी",
+       "雨"
+      ],
+      [
+       "not go",
+       "won't go",
+       "will not go",
+       "जान्न",
+       "जाँदिन",
+       "行きません"
+      ]
+     ],
+     "model_answer": {
+      "en": "'If it rains, I won't go.' ～たら marks a condition: if / when.",
+      "ne": "'पानी परे म जान्नँ।' ～たら ले सर्त जनाउँछ: यदि / भने।",
+      "ja": "「もし雨が降ったら行かない」という意味です。「～たら」は条件です。"
+     },
+     "probe": {
+      "en": "How is ～たら different from ～と?",
+      "ne": "～たら र ～と मा के फरक छ?",
+      "ja": "「～たら」と「～と」はどう違いますか？"
+     }
+    },
+    {
+     "id": "n3_4",
+     "skill": "comprehension",
+     "difficulty": 3,
+     "prompt": {
+      "en": "Read: 先週から熱が続いているので、病院に行くことにした。 What did the person decide, and why?",
+      "ne": "पढ्नुहोस्: 先週から熱が続いているので、病院に行くことにした。 व्यक्तिले के निर्णय गर्यो, र किन?",
+      "ja": "「先週から熱が続いているので、病院に行くことにした。」何を決めましたか。なぜですか？"
+     },
+     "keywords": [
+      [
+       "hospital",
+       "doctor",
+       "clinic",
+       "अस्पताल",
+       "病院"
+      ],
+      [
+       "fever",
+       "temperature",
+       "ज्वरो",
+       "熱"
+      ]
+     ],
+     "model_answer": {
+      "en": "To go to the hospital, because the fever has continued since last week.",
+      "ne": "अस्पताल जाने, किनभने गत हप्तादेखि ज्वरो छ।",
+      "ja": "先週から熱が続いているので、病院に行くことにしました。"
+     },
+     "probe": {
+      "en": "What does ～ことにした show about the decision?",
+      "ne": "～ことにした ले निर्णयबारे के देखाउँछ?",
+      "ja": "「～ことにした」はどんな決定を表しますか？"
+     }
+    },
+    {
+     "id": "n3_5",
+     "skill": "recall",
+     "difficulty": 3,
+     "prompt": {
+      "en": "Read 留守 and say what it means.",
+      "ne": "留守 पढ्नुहोस् र अर्थ भन्नुहोस्।",
+      "ja": "「留守」の読み方と意味を答えてください。"
+     },
+     "keywords": [
+      [
+       "るす",
+       "rusu"
+      ],
+      [
+       "away",
+       "not home",
+       "not at home",
+       "out",
+       "absent",
+       "घरमा छैन",
+       "बाहिर"
+      ]
+     ],
+     "model_answer": {
+      "en": "るす (rusu): being away from home.",
+      "ne": "るす (रुसु): घरमा नहुनु।",
+      "ja": "「るす」と読みます。家にいないことです。"
+     },
+     "probe": {
+      "en": "What is 留守番電話?",
+      "ne": "留守番電話 के हो?",
+      "ja": "「留守番電話」とは何ですか？"
+     }
+    },
+    {
+     "id": "n3_6",
+     "skill": "vocabulary",
+     "difficulty": 3,
+     "prompt": {
+      "en": "What does 我慢する (がまんする) mean?",
+      "ne": "我慢する (がまんする) को अर्थ के हो?",
+      "ja": "「我慢する（がまんする）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "endure",
+       "put up with",
+       "bear",
+       "tolerate",
+       "hold back",
+       "patience",
+       "सहनु",
+       "सहन"
+      ]
+     ],
+     "model_answer": {
+      "en": "To endure or put up with something.",
+      "ne": "केही सहनु वा सहन गर्नु।",
+      "ja": "つらいことをたえることです。"
+     },
+     "probe": {
+      "en": "Why should residents not be asked to 我慢 pain?",
+      "ne": "बासिन्दालाई दुखाइ 我慢 गर्न किन भन्नु हुँदैन?",
+      "ja": "入居者に痛みを我慢させてはいけないのはなぜですか？"
+     }
+    },
+    {
+     "id": "n3_7",
+     "skill": "grammar",
+     "difficulty": 3,
+     "prompt": {
+      "en": "What does ～わけではない mean, as in 嫌いなわけではない?",
+      "ne": "嫌いなわけではない मा ～わけではない को अर्थ के हो?",
+      "ja": "「嫌いなわけではない」の「～わけではない」はどんな意味ですか？"
+     },
+     "keywords": [
+      [
+       "not that",
+       "doesn't mean",
+       "does not mean",
+       "not necessarily",
+       "not exactly",
+       "होइन",
+       "भन्ने होइन"
+      ]
+     ],
+     "model_answer": {
+      "en": "'It is not that I dislike it.' ～わけではない softly denies an assumption.",
+      "ne": "'मलाई मन नपर्ने भन्ने होइन।' ～わけではない ले अनुमानलाई नरम रूपमा अस्वीकार गर्छ।",
+      "ja": "「嫌いというのではない」という意味です。部分的な否定です。"
+     },
+     "probe": {
+      "en": "Make your own sentence with ～わけではない.",
+      "ne": "～わけではない प्रयोग गरेर आफ्नै वाक्य बनाउनुहोस्।",
+      "ja": "「～わけではない」で文を作ってください。"
+     }
+    },
+    {
+     "id": "n3_8",
+     "skill": "comprehension",
+     "difficulty": 3,
+     "prompt": {
+      "en": "Read: 薬を飲んだのに、まだ頭が痛い。 What is surprising here? Explain のに.",
+      "ne": "पढ्नुहोस्: 薬を飲んだのに、まだ頭が痛い。 यहाँ के अचम्मको छ? のに बुझाउनुहोस्।",
+      "ja": "「薬を飲んだのに、まだ頭が痛い。」何が意外ですか。「のに」を説明してください。"
+     },
+     "keywords": [
+      [
+       "still",
+       "even though",
+       "although",
+       "despite",
+       "but",
+       "तैपनि",
+       "भए पनि"
+      ],
+      [
+       "headache",
+       "head",
+       "hurt",
+       "टाउको",
+       "頭"
+      ]
+     ],
+     "model_answer": {
+      "en": "The head still hurts even though they took medicine; のに = even though (unexpected result).",
+      "ne": "औषधि खाए पनि टाउको अझै दुख्छ; のに = भए पनि (अनपेक्षित नतिजा)।",
+      "ja": "薬を飲んだのに頭が痛いままです。「のに」は予想と違う結果を表します。"
+     },
+     "probe": {
+      "en": "What should a caregiver do in this situation?",
+      "ne": "यस अवस्थामा केयरगिभरले के गर्नुपर्छ?",
+      "ja": "この場合、介護士はどうしますか？"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jlpt_n2",
+   "track": "jlpt",
+   "jlpt_level": "N2",
+   "title": {
+    "en": "JLPT N2 workplace Japanese",
+    "ne": "JLPT N2 कार्यस्थल जापानी",
+    "ja": "JLPT N2 仕事の日本語"
+   },
+   "vocab": [
+    {
+     "jp": "検討",
+     "reading": "けんとう",
+     "en": "consideration",
+     "ne": "विचार"
+    },
+    {
+     "jp": "把握",
+     "reading": "はあく",
+     "en": "grasp",
+     "ne": "बुझाइ"
+    },
+    {
+     "jp": "対応",
+     "reading": "たいおう",
+     "en": "handling / response",
+     "ne": "व्यवहार / प्रतिक्रिया"
+    },
+    {
+     "jp": "一方",
+     "reading": "いっぽう",
+     "en": "on the other hand",
+     "ne": "अर्कोतर्फ"
+    }
+   ],
+   "questions": [
+    {
+     "id": "n2_1",
+     "skill": "vocabulary",
+     "difficulty": 4,
+     "prompt": {
+      "en": "What does 検討する (けんとうする) mean in business Japanese?",
+      "ne": "व्यावसायिक जापानीमा 検討する को अर्थ के हो?",
+      "ja": "ビジネスで「検討する」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "consider",
+       "examine",
+       "review",
+       "look into",
+       "think about",
+       "study",
+       "विचार",
+       "अध्ययन",
+       "समीक्षा"
+      ]
+     ],
+     "model_answer": {
+      "en": "To consider or examine carefully.",
+      "ne": "राम्ररी विचार वा अध्ययन गर्नु।",
+      "ja": "よく考えて調べることです。"
+     },
+     "probe": {
+      "en": "Why can 検討します sometimes mean a polite 'no'?",
+      "ne": "検討します ले कहिलेकाहीं नम्र 'होइन' किन जनाउँछ?",
+      "ja": "「検討します」が遠回しな断りになることがあるのはなぜですか？"
+     }
+    },
+    {
+     "id": "n2_2",
+     "skill": "grammar",
+     "difficulty": 4,
+     "prompt": {
+      "en": "What does ～ざるを得ない mean, as in 中止せざるを得ない?",
+      "ne": "中止せざるを得ない मा ～ざるを得ない को अर्थ के हो?",
+      "ja": "「中止せざるを得ない」の「～ざるを得ない」はどんな意味ですか？"
+     },
+     "keywords": [
+      [
+       "no choice",
+       "must",
+       "forced",
+       "cannot help",
+       "can't help",
+       "compelled",
+       "बाध्य",
+       "उपाय छैन"
+      ]
+     ],
+     "model_answer": {
+      "en": "'Have no choice but to': we have no choice but to cancel.",
+      "ne": "'गर्नुबाहेक उपाय छैन': रद्द गर्नुबाहेक उपाय छैन।",
+      "ja": "「しかたなく中止する」という意味です。"
+     },
+     "probe": {
+      "en": "Give a work situation where you would use ～ざるを得ない.",
+      "ne": "～ざるを得ない प्रयोग गर्ने कामको अवस्था दिनुहोस्।",
+      "ja": "「～ざるを得ない」を使う仕事の場面を考えてください。"
+     }
+    },
+    {
+     "id": "n2_3",
+     "skill": "grammar",
+     "difficulty": 4,
+     "prompt": {
+      "en": "What does ～にもかかわらず mean?",
+      "ne": "～にもかかわらず को अर्थ के हो?",
+      "ja": "「～にもかかわらず」はどんな意味ですか？"
+     },
+     "keywords": [
+      [
+       "despite",
+       "in spite of",
+       "although",
+       "even though",
+       "regardless",
+       "बावजुद",
+       "भए पनि"
+      ]
+     ],
+     "model_answer": {
+      "en": "'Despite / in spite of'.",
+      "ne": "'बावजुद / भए पनि'।",
+      "ja": "「～のに」「～けれども」に近い、逆接の表現です。"
+     },
+     "probe": {
+      "en": "Translate: 雨にもかかわらず、たくさんの人が来た。",
+      "ne": "अनुवाद गर्नुहोस्: 雨にもかかわらず、たくさんの人が来た。",
+      "ja": "「雨にもかかわらず、たくさんの人が来た」を説明してください。"
+     }
+    },
+    {
+     "id": "n2_4",
+     "skill": "comprehension",
+     "difficulty": 4,
+     "prompt": {
+      "en": "Read: 人手不足に伴い、外国人労働者の受け入れが進んでいる。 What is happening, and why?",
+      "ne": "पढ्नुहोस्: 人手不足に伴い、外国人労働者の受け入れが進んでいる। के भइरहेको छ, र किन?",
+      "ja": "「人手不足に伴い、外国人労働者の受け入れが進んでいる。」何が起きていますか。なぜですか？"
+     },
+     "keywords": [
+      [
+       "foreign",
+       "विदेशी",
+       "外国人"
+      ],
+      [
+       "shortage",
+       "lack",
+       "not enough",
+       "कमी",
+       "不足"
+      ]
+     ],
+     "model_answer": {
+      "en": "More foreign workers are being accepted, because of the labour shortage.",
+      "ne": "कामदारको कमीले गर्दा धेरै विदेशी कामदार भित्र्याइँदैछ।",
+      "ja": "人手不足のため、外国人労働者の受け入れが増えています。"
+     },
+     "probe": {
+      "en": "How does this sentence relate to your own plans?",
+      "ne": "यो वाक्य तपाईंको योजनासँग कसरी जोडिन्छ?",
+      "ja": "この文はあなたの将来とどう関係しますか？"
+     }
+    },
+    {
+     "id": "n2_5",
+     "skill": "recall",
+     "difficulty": 4,
+     "prompt": {
+      "en": "Read 把握 and give its meaning.",
+      "ne": "把握 पढ्नुहोस् र अर्थ दिनुहोस्।",
+      "ja": "「把握」の読み方と意味を答えてください。"
+     },
+     "keywords": [
+      [
+       "はあく",
+       "haaku",
+       "hāku"
+      ],
+      [
+       "grasp",
+       "understand",
+       "comprehend",
+       "keep track",
+       "बुझ्नु",
+       "थाहा"
+      ]
+     ],
+     "model_answer": {
+      "en": "はあく (haaku): to grasp / fully understand a situation.",
+      "ne": "はあく (हाआकु): अवस्था राम्ररी बुझ्नु।",
+      "ja": "「はあく」と読みます。しっかり理解することです。"
+     },
+     "probe": {
+      "en": "Why must a caregiver 把握 each resident's condition?",
+      "ne": "केयरगिभरले हरेक बासिन्दाको अवस्था किन 把握 गर्नुपर्छ?",
+      "ja": "介護士が入居者の状態を把握する必要があるのはなぜですか？"
+     }
+    },
+    {
+     "id": "n2_6",
+     "skill": "vocabulary",
+     "difficulty": 4,
+     "prompt": {
+      "en": "What does 一方 (いっぽう) mean at the start of a sentence?",
+      "ne": "वाक्यको सुरुमा 一方 को अर्थ के हो?",
+      "ja": "文のはじめの「一方」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "on the other hand",
+       "meanwhile",
+       "whereas",
+       "while",
+       "अर्कोतर्फ",
+       "अर्को पक्ष"
+      ]
+     ],
+     "model_answer": {
+      "en": "'On the other hand / meanwhile'.",
+      "ne": "'अर्कोतर्फ / यसैबीच'।",
+      "ja": "「それに対して」という意味で、二つのことを比べます。"
+     },
+     "probe": {
+      "en": "Compare city and country life using 一方.",
+      "ne": "一方 प्रयोग गरेर सहर र गाउँको जीवन तुलना गर्नुहोस्।",
+      "ja": "「一方」を使って都会といなかを比べてください。"
+     }
+    },
+    {
+     "id": "n2_7",
+     "skill": "grammar",
+     "difficulty": 4,
+     "prompt": {
+      "en": "What does ～に関して mean, as in この件に関して?",
+      "ne": "この件に関して मा ～に関して को अर्थ के हो?",
+      "ja": "「この件に関して」の「～に関して」はどんな意味ですか？"
+     },
+     "keywords": [
+      [
+       "regarding",
+       "about",
+       "concerning",
+       "related to",
+       "with regard",
+       "सम्बन्धमा",
+       "बारे"
+      ]
+     ],
+     "model_answer": {
+      "en": "'Regarding / concerning': regarding this matter.",
+      "ne": "'सम्बन्धमा / बारे': यस विषयका सम्बन्धमा।",
+      "ja": "「～について」のかたい言い方です。"
+     },
+     "probe": {
+      "en": "Write a polite email opening using ～に関して.",
+      "ne": "～に関して प्रयोग गरेर नम्र इमेलको सुरुवात लेख्नुहोस्।",
+      "ja": "「～に関して」を使ってメールの書き出しを作ってください。"
+     }
+    },
+    {
+     "id": "n2_8",
+     "skill": "comprehension",
+     "difficulty": 4,
+     "prompt": {
+      "en": "Read: ご要望にお応えできず、申し訳ございません。 Is this a yes or a no, and what is the tone?",
+      "ne": "पढ्नुहोस्: ご要望にお応えできず、申し訳ございません। यो 'हो' हो कि 'होइन', र स्वर कस्तो छ?",
+      "ja": "「ご要望にお応えできず、申し訳ございません。」これは承諾ですか、断りですか。どんな言い方ですか？"
+     },
+     "keywords": [
+      [
+       "no",
+       "cannot",
+       "can't",
+       "unable",
+       "refus",
+       "decline",
+       "सक्दैन",
+       "होइन",
+       "अस्वीकार"
+      ],
+      [
+       "polite",
+       "formal",
+       "apolog",
+       "sorry",
+       "humble",
+       "नम्र",
+       "माफी"
+      ]
+     ],
+     "model_answer": {
+      "en": "A no: a very polite, apologetic refusal (keigo).",
+      "ne": "'होइन': अत्यन्त नम्र, माफी सहितको अस्वीकार (केइगो)।",
+      "ja": "断りです。とてもていねいなおわびの表現（敬語）です。"
+     },
+     "probe": {
+      "en": "Which words here are keigo?",
+      "ne": "यहाँ कुन शब्दहरू केइगो हुन्?",
+      "ja": "この文の中の敬語はどれですか？"
+     }
+    }
+   ]
+  },
+  {
+   "id": "jlpt_n1",
+   "track": "jlpt",
+   "jlpt_level": "N1",
+   "title": {
+    "en": "JLPT N1 advanced Japanese",
+    "ne": "JLPT N1 उच्च जापानी",
+    "ja": "JLPT N1 上級の日本語"
+   },
+   "vocab": [
+    {
+     "jp": "懸念",
+     "reading": "けねん",
+     "en": "concern",
+     "ne": "चिन्ता"
+    },
+    {
+     "jp": "顕著",
+     "reading": "けんちょ",
+     "en": "remarkable",
+     "ne": "उल्लेखनीय"
+    },
+    {
+     "jp": "是正",
+     "reading": "ぜせい",
+     "en": "correction",
+     "ne": "सुधार"
+    },
+    {
+     "jp": "踏まえる",
+     "reading": "ふまえる",
+     "en": "to be based on",
+     "ne": "आधार लिनु"
+    }
+   ],
+   "questions": [
+    {
+     "id": "n1_1",
+     "skill": "vocabulary",
+     "difficulty": 5,
+     "prompt": {
+      "en": "What does 懸念 (けねん) mean?",
+      "ne": "懸念 (けねん) को अर्थ के हो?",
+      "ja": "「懸念（けねん）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "concern",
+       "worry",
+       "apprehension",
+       "fear",
+       "anxiety",
+       "चिन्ता",
+       "आशंका"
+      ]
+     ],
+     "model_answer": {
+      "en": "懸念 means concern or apprehension.",
+      "ne": "懸念 को अर्थ चिन्ता वा आशंका हो।",
+      "ja": "懸念は、よくないことが起きるのではという心配です。"
+     },
+     "probe": {
+      "en": "How is 懸念 different from 心配 in tone?",
+      "ne": "स्वरमा 懸念 र 心配 मा के फरक छ?",
+      "ja": "「懸念」と「心配」は使い方がどう違いますか？"
+     }
+    },
+    {
+     "id": "n1_2",
+     "skill": "grammar",
+     "difficulty": 5,
+     "prompt": {
+      "en": "What does ～を踏まえて mean, as in 結果を踏まえて?",
+      "ne": "結果を踏まえて मा ～を踏まえて को अर्थ के हो?",
+      "ja": "「結果を踏まえて」の「～を踏まえて」はどんな意味ですか？"
+     },
+     "keywords": [
+      [
+       "based on",
+       "taking into account",
+       "considering",
+       "in light of",
+       "on the basis",
+       "आधारमा",
+       "ध्यानमा"
+      ]
+     ],
+     "model_answer": {
+      "en": "'Based on / taking into account': based on the results.",
+      "ne": "'आधारमा / ध्यानमा राखेर': नतिजाको आधारमा।",
+      "ja": "「～を前提・根拠にして」という意味です。"
+     },
+     "probe": {
+      "en": "Use ～を踏まえて in a sentence about a care plan.",
+      "ne": "हेरचाह योजनाबारे ～を踏まえて को वाक्य बनाउनुहोस्।",
+      "ja": "ケアプランについて「～を踏まえて」の文を作ってください。"
+     }
+    },
+    {
+     "id": "n1_3",
+     "skill": "grammar",
+     "difficulty": 5,
+     "prompt": {
+      "en": "What does ～ずにはいられない express, as in 笑わずにはいられない?",
+      "ne": "笑わずにはいられない मा ～ずにはいられない ले के जनाउँछ?",
+      "ja": "「笑わずにはいられない」の「～ずにはいられない」は何を表しますか？"
+     },
+     "keywords": [
+      [
+       "can't help",
+       "cannot help",
+       "couldn't help",
+       "can not help",
+       "not help",
+       "unable to stop",
+       "रोक्न सकिन",
+       "नगरी बस्न सकिन"
+      ]
+     ],
+     "model_answer": {
+      "en": "'Cannot help doing': I can't help laughing.",
+      "ne": "'नगरी बस्न सक्दिनँ': हाँस्न रोक्न सक्दिनँ।",
+      "ja": "「どうしても～してしまう」という気持ちを表します。"
+     },
+     "probe": {
+      "en": "Make a sentence with ～ずにはいられない about Japan.",
+      "ne": "जापानबारे ～ずにはいられない को वाक्य बनाउनुहोस्।",
+      "ja": "日本について「～ずにはいられない」の文を作ってください。"
+     }
+    },
+    {
+     "id": "n1_4",
+     "skill": "comprehension",
+     "difficulty": 5,
+     "prompt": {
+      "en": "Read: 少子高齢化の影響は地方において特に顕著である。 What is the main point?",
+      "ne": "पढ्नुहोस्: 少子高齢化の影響は地方において特に顕著である। मुख्य कुरा के हो?",
+      "ja": "「少子高齢化の影響は地方において特に顕著である。」要点は何ですか？"
+     },
+     "keywords": [
+      [
+       "aging",
+       "ageing",
+       "elderly",
+       "birth rate",
+       "fewer children",
+       "population",
+       "वृद्ध",
+       "जनसङ्ख्या",
+       "高齢"
+      ],
+      [
+       "rural",
+       "region",
+       "local",
+       "countryside",
+       "ग्रामीण",
+       "क्षेत्र",
+       "地方"
+      ],
+      [
+       "noticeable",
+       "remarkable",
+       "especially",
+       "particularly",
+       "significant",
+       "prominent",
+       "स्पष्ट",
+       "विशेष"
+      ]
+     ],
+     "model_answer": {
+      "en": "The effects of the low birth rate and aging population are especially noticeable in rural areas.",
+      "ne": "कम जन्मदर र वृद्ध जनसङ्ख्याको प्रभाव ग्रामीण क्षेत्रमा विशेष स्पष्ट छ।",
+      "ja": "少子高齢化の影響は、とくに地方で目立っているということです。"
+     },
+     "probe": {
+      "en": "Why does this matter for foreign caregivers?",
+      "ne": "विदेशी केयरगिभरका लागि यो किन महत्त्वपूर्ण छ?",
+      "ja": "外国人介護士にとって、なぜこれが大切なのですか？"
+     }
+    },
+    {
+     "id": "n1_5",
+     "skill": "recall",
+     "difficulty": 5,
+     "prompt": {
+      "en": "Read 是正 and give its meaning.",
+      "ne": "是正 पढ्नुहोस् र अर्थ दिनुहोस्।",
+      "ja": "「是正」の読み方と意味を答えてください。"
+     },
+     "keywords": [
+      [
+       "ぜせい",
+       "zesei"
+      ],
+      [
+       "correct",
+       "correction",
+       "rectify",
+       "fix",
+       "remedy",
+       "सुधार"
+      ]
+     ],
+     "model_answer": {
+      "en": "ぜせい (zesei): correction, setting something right.",
+      "ne": "ぜせい (जेसेइ): सुधार, ठीक पार्नु।",
+      "ja": "「ぜせい」と読みます。悪いところを正しく直すことです。"
+     },
+     "probe": {
+      "en": "Where might you read 是正 at work?",
+      "ne": "कामको ठाउँमा 是正 कहाँ पढ्न सकिन्छ?",
+      "ja": "職場で「是正」をどこで見ますか？"
+     }
+    },
+    {
+     "id": "n1_6",
+     "skill": "grammar",
+     "difficulty": 5,
+     "prompt": {
+      "en": "What does ～をよそに mean, as in 周囲の心配をよそに?",
+      "ne": "周囲の心配をよそに मा ～をよそに को अर्थ के हो?",
+      "ja": "「周囲の心配をよそに」の「～をよそに」はどんな意味ですか？"
+     },
+     "keywords": [
+      [
+       "ignoring",
+       "despite",
+       "regardless",
+       "disregard",
+       "without caring",
+       "बेवास्ता",
+       "वास्ता नगरी"
+      ]
+     ],
+     "model_answer": {
+      "en": "'Ignoring / paying no attention to': ignoring everyone's worries.",
+      "ne": "'बेवास्ता गर्दै': सबैको चिन्ताको वास्ता नगरी।",
+      "ja": "「～を気にしないで」という意味です。"
+     },
+     "probe": {
+      "en": "Is ～をよそに usually positive or critical?",
+      "ne": "～をよそに प्रायः सकारात्मक हुन्छ कि आलोचनात्मक?",
+      "ja": "「～をよそに」はよい意味ですか、批判的ですか？"
+     }
+    },
+    {
+     "id": "n1_7",
+     "skill": "vocabulary",
+     "difficulty": 5,
+     "prompt": {
+      "en": "What does 顕著 (けんちょ) mean?",
+      "ne": "顕著 (けんちょ) को अर्थ के हो?",
+      "ja": "「顕著（けんちょ）」はどういう意味ですか？"
+     },
+     "keywords": [
+      [
+       "remarkable",
+       "striking",
+       "noticeable",
+       "conspicuous",
+       "marked",
+       "prominent",
+       "obvious",
+       "स्पष्ट",
+       "उल्लेखनीय"
+      ]
+     ],
+     "model_answer": {
+      "en": "顕著 means remarkable or clearly noticeable.",
+      "ne": "顕著 को अर्थ उल्लेखनीय वा स्पष्ट देखिने हो।",
+      "ja": "顕著は、はっきり目立つことです。"
+     },
+     "probe": {
+      "en": "Use 顕著 to describe a student's progress.",
+      "ne": "विद्यार्थीको प्रगति वर्णन गर्न 顕著 प्रयोग गर्नुहोस्।",
+      "ja": "学生の成長を「顕著」で表してください。"
+     }
+    },
+    {
+     "id": "n1_8",
+     "skill": "comprehension",
+     "difficulty": 5,
+     "prompt": {
+      "en": "Read: 彼の発言は誤解を招きかねない。 What is the risk? Explain ～かねない.",
+      "ne": "पढ्नुहोस्: 彼の発言は誤解を招きかねない। जोखिम के हो? ～かねない बुझाउनुहोस्।",
+      "ja": "「彼の発言は誤解を招きかねない。」どんな危険がありますか。「～かねない」を説明してください。"
+     },
+     "keywords": [
+      [
+       "misunderstand",
+       "गलतफहमी",
+       "誤解"
+      ],
+      [
+       "could",
+       "might",
+       "may",
+       "risk",
+       "possib",
+       "सक्छ",
+       "सम्भावना"
+      ]
+     ],
+     "model_answer": {
+      "en": "His remark could cause a misunderstanding; ～かねない = there is a risk that (something bad) happens.",
+      "ne": "उनको भनाइले गलतफहमी निम्त्याउन सक्छ; ～かねない = नराम्रो हुने जोखिम।",
+      "ja": "誤解されるおそれがあります。「～かねない」は悪い結果の可能性です。"
+     },
+     "probe": {
+      "en": "How is ～かねない different from ～かねる?",
+      "ne": "～かねない र ～かねる मा के फरक छ?",
+      "ja": "「～かねない」と「～かねる」はどう違いますか？"
+     }
+    }
+   ]
+  }
+ ],
+ "levels": [
+  "Pre-N5",
+  "N5",
+  "N4",
+  "N3",
+  "N2",
+  "N1"
+ ]
+}

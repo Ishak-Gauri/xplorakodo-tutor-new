@@ -1,0 +1,1420 @@
+{
+ "levels": [
+  "Pre-N5",
+  "N5",
+  "N4",
+  "N3",
+  "N2",
+  "N1"
+ ],
+ "items": [
+  {
+   "q": {
+    "en": "What does ありがとう mean?",
+    "ne": "ありがとう को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Thank you",
+     "ne": "धन्यवाद"
+    },
+    {
+     "en": "Sorry",
+     "ne": "माफ गर्नुहोस्"
+    },
+    {
+     "en": "Hello",
+     "ne": "नमस्ते"
+    },
+    {
+     "en": "Goodbye",
+     "ne": "बिदा"
+    }
+   ],
+   "answer": 0,
+   "id": "p1",
+   "difficulty": 1
+  },
+  {
+   "q": {
+    "en": "What does はい mean?",
+    "ne": "はい को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "No",
+     "ne": "होइन"
+    },
+    {
+     "en": "Yes",
+     "ne": "हो"
+    },
+    {
+     "en": "Maybe",
+     "ne": "सायद"
+    },
+    {
+     "en": "Please",
+     "ne": "कृपया"
+    }
+   ],
+   "answer": 1,
+   "id": "p2",
+   "difficulty": 1
+  },
+  {
+   "q": {
+    "en": "What does 水 (みず) mean?",
+    "ne": "水 (みず) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Fire",
+     "ne": "आगो"
+    },
+    {
+     "en": "Water",
+     "ne": "पानी"
+    },
+    {
+     "en": "Tree",
+     "ne": "रुख"
+    },
+    {
+     "en": "Mountain",
+     "ne": "पहाड"
+    }
+   ],
+   "answer": 1,
+   "id": "p3",
+   "difficulty": 1
+  },
+  {
+   "q": {
+    "en": "Which sentence means 'I am a student'?",
+    "ne": "कुन वाक्यको अर्थ 'म विद्यार्थी हुँ' हो?"
+   },
+   "options": [
+    "私は学生です",
+    "私は先生です",
+    "私は医者です",
+    "私は友達です"
+   ],
+   "answer": 0,
+   "id": "p4",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "What does 食べます (たべます) mean?",
+    "ne": "食べます (たべます) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "To drink",
+     "ne": "पिउनु"
+    },
+    {
+     "en": "To eat",
+     "ne": "खानु"
+    },
+    {
+     "en": "To go",
+     "ne": "जानु"
+    },
+    {
+     "en": "To sleep",
+     "ne": "सुत्नु"
+    }
+   ],
+   "answer": 1,
+   "id": "p5",
+   "difficulty": 1
+  },
+  {
+   "q": {
+    "en": "Which number is 三?",
+    "ne": "三 कुन संख्या हो?"
+   },
+   "options": [
+    "2",
+    "3",
+    "4",
+    "5"
+   ],
+   "answer": 1,
+   "id": "p6",
+   "difficulty": 1
+  },
+  {
+   "q": {
+    "en": "What is 病院 (びょういん)?",
+    "ne": "病院 (びょういん) के हो?"
+   },
+   "options": [
+    {
+     "en": "School",
+     "ne": "विद्यालय"
+    },
+    {
+     "en": "Hospital",
+     "ne": "अस्पताल"
+    },
+    {
+     "en": "Station",
+     "ne": "स्टेसन"
+    },
+    {
+     "en": "Bank",
+     "ne": "बैंक"
+    }
+   ],
+   "answer": 1,
+   "id": "p7",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "Which means 'Please wait'?",
+    "ne": "'कृपया पर्खनुहोस्' कुन हो?"
+   },
+   "options": [
+    "待ってください",
+    "待て",
+    "待たない",
+    "待った"
+   ],
+   "answer": 0,
+   "id": "p8",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "When do you say お願いします?",
+    "ne": "お願いします कहिले भनिन्छ?"
+   },
+   "options": [
+    {
+     "en": "Asking politely for something",
+     "ne": "केही नम्रतापूर्वक मागदा"
+    },
+    {
+     "en": "Saying goodbye",
+     "ne": "बिदा हुँदा"
+    },
+    {
+     "en": "Apologizing",
+     "ne": "माफी माग्दा"
+    },
+    {
+     "en": "Counting",
+     "ne": "गन्ती गर्दा"
+    }
+   ],
+   "answer": 0,
+   "id": "p9",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "Which particle marks the destination: 日本＿行きます?",
+    "ne": "गन्तव्य जनाउने कण कुन हो: 日本＿行きます?"
+   },
+   "options": [
+    "を",
+    "へ",
+    "が",
+    "の"
+   ],
+   "answer": 1,
+   "id": "p10",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "What does 先生 (せんせい) mean?",
+    "ne": "先生 (せんせい) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Student",
+     "ne": "विद्यार्थी"
+    },
+    {
+     "en": "Teacher",
+     "ne": "शिक्षक"
+    },
+    {
+     "en": "Friend",
+     "ne": "साथी"
+    },
+    {
+     "en": "Nurse",
+     "ne": "नर्स"
+    }
+   ],
+   "answer": 1,
+   "id": "p11",
+   "difficulty": 1
+  },
+  {
+   "q": {
+    "en": "What does 薬 (くすり) mean?",
+    "ne": "薬 (くすり) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Shoes",
+     "ne": "जुत्ता"
+    },
+    {
+     "en": "Rice",
+     "ne": "भात"
+    },
+    {
+     "en": "Medicine",
+     "ne": "औषधि"
+    },
+    {
+     "en": "Water",
+     "ne": "पानी"
+    }
+   ],
+   "answer": 2,
+   "id": "p12",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "Which number is 五?",
+    "ne": "五 कुन संख्या हो?"
+   },
+   "options": [
+    "3",
+    "4",
+    "6",
+    "5"
+   ],
+   "answer": 3,
+   "id": "p13",
+   "difficulty": 1
+  },
+  {
+   "q": {
+    "en": "What does 痛い (いたい) mean?",
+    "ne": "痛い (いたい) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Happy",
+     "ne": "खुसी"
+    },
+    {
+     "en": "Painful",
+     "ne": "दुखेको"
+    },
+    {
+     "en": "Tired",
+     "ne": "थकित"
+    },
+    {
+     "en": "Cold",
+     "ne": "चिसो"
+    }
+   ],
+   "answer": 1,
+   "id": "p14",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "Which is the polite way to say 'Good morning'?",
+    "ne": "'शुभ प्रभात' भन्ने नम्र तरिका कुन हो?"
+   },
+   "options": [
+    "おやすみなさい",
+    "さようなら",
+    "おはようございます",
+    "ただいま"
+   ],
+   "answer": 2,
+   "id": "p15",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "What does 熱 (ねつ) mean when someone is sick?",
+    "ne": "बिरामी हुँदा 熱 (ねつ) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Rain",
+     "ne": "वर्षा"
+    },
+    {
+     "en": "Fever",
+     "ne": "ज्वरो"
+    },
+    {
+     "en": "Hunger",
+     "ne": "भोक"
+    },
+    {
+     "en": "Sleep",
+     "ne": "निद्रा"
+    }
+   ],
+   "answer": 1,
+   "id": "p16",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "What does 手伝います (てつだいます) mean?",
+    "ne": "手伝います (てつだいます) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "I will run",
+     "ne": "म दौडन्छु"
+    },
+    {
+     "en": "I will wait",
+     "ne": "म पर्खन्छु"
+    },
+    {
+     "en": "I will help",
+     "ne": "म सहयोग गर्छु"
+    },
+    {
+     "en": "I will read",
+     "ne": "म पढ्छु"
+    }
+   ],
+   "answer": 2,
+   "id": "p17",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "What is トイレ?",
+    "ne": "トイレ के हो?"
+   },
+   "options": [
+    {
+     "en": "Kitchen",
+     "ne": "भान्सा"
+    },
+    {
+     "en": "Bed",
+     "ne": "ओछ्यान"
+    },
+    {
+     "en": "Door",
+     "ne": "ढोका"
+    },
+    {
+     "en": "Toilet",
+     "ne": "शौचालय"
+    }
+   ],
+   "answer": 3,
+   "id": "p18",
+   "difficulty": 1
+  },
+  {
+   "q": {
+    "en": "Which particle marks the object: 水＿飲みます?",
+    "ne": "वस्तु जनाउने कण कुन हो: 水＿飲みます?"
+   },
+   "options": [
+    "に",
+    "を",
+    "で",
+    "と"
+   ],
+   "answer": 1,
+   "id": "p19",
+   "difficulty": 2
+  },
+  {
+   "q": {
+    "en": "What does 危ない (あぶない) mean?",
+    "ne": "危ない (あぶない) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Delicious",
+     "ne": "स्वादिलो"
+    },
+    {
+     "en": "Dangerous",
+     "ne": "खतरनाक"
+    },
+    {
+     "en": "Heavy",
+     "ne": "भारी"
+    },
+    {
+     "en": "Quiet",
+     "ne": "शान्त"
+    }
+   ],
+   "answer": 1,
+   "id": "p20",
+   "difficulty": 2
+  },
+  {
+   "id": "p21",
+   "q": {
+    "en": "What does 足 (あし) mean?",
+    "ne": "足 (あし) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Hand",
+     "ne": "हात"
+    },
+    {
+     "en": "Foot / leg",
+     "ne": "खुट्टा"
+    },
+    {
+     "en": "Head",
+     "ne": "टाउको"
+    },
+    {
+     "en": "Eye",
+     "ne": "आँखा"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 1
+  },
+  {
+   "id": "p22",
+   "q": {
+    "en": "Which number is 十?",
+    "ne": "十 कुन सङ्ख्या हो?"
+   },
+   "options": [
+    {
+     "en": "7",
+     "ne": "7"
+    },
+    {
+     "en": "8",
+     "ne": "8"
+    },
+    {
+     "en": "10",
+     "ne": "10"
+    },
+    {
+     "en": "12",
+     "ne": "12"
+    }
+   ],
+   "answer": 2,
+   "difficulty": 1
+  },
+  {
+   "id": "p23",
+   "q": {
+    "en": "What does すみません mean?",
+    "ne": "すみません को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Excuse me / sorry",
+     "ne": "माफ गर्नुहोस्"
+    },
+    {
+     "en": "Thank you",
+     "ne": "धन्यवाद"
+    },
+    {
+     "en": "Delicious",
+     "ne": "मीठो"
+    },
+    {
+     "en": "Good night",
+     "ne": "शुभरात्रि"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 1
+  },
+  {
+   "id": "p24",
+   "q": {
+    "en": "What is 朝ごはん (あさごはん)?",
+    "ne": "朝ごはん (あさごはん) के हो?"
+   },
+   "options": [
+    {
+     "en": "Lunch",
+     "ne": "दिउँसोको खाना"
+    },
+    {
+     "en": "Dinner",
+     "ne": "बेलुकाको खाना"
+    },
+    {
+     "en": "Breakfast",
+     "ne": "बिहानको खाजा"
+    },
+    {
+     "en": "Snack",
+     "ne": "खाजा"
+    }
+   ],
+   "answer": 2,
+   "difficulty": 1
+  },
+  {
+   "id": "p25",
+   "q": {
+    "en": "What does 寒い (さむい) mean?",
+    "ne": "寒い (さむい) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Hot",
+     "ne": "तातो"
+    },
+    {
+     "en": "Cold",
+     "ne": "चिसो"
+    },
+    {
+     "en": "Sweet",
+     "ne": "गुलियो"
+    },
+    {
+     "en": "Far",
+     "ne": "टाढा"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 1
+  },
+  {
+   "id": "p26",
+   "q": {
+    "en": "What does 看護師 (かんごし) mean?",
+    "ne": "看護師 (かんごし) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Doctor",
+     "ne": "डाक्टर"
+    },
+    {
+     "en": "Nurse",
+     "ne": "नर्स"
+    },
+    {
+     "en": "Caregiver",
+     "ne": "केयरगिभर"
+    },
+    {
+     "en": "Patient",
+     "ne": "बिरामी"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 2
+  },
+  {
+   "id": "p27",
+   "q": {
+    "en": "Which means 'Please sit down'?",
+    "ne": "'कृपया बस्नुहोस्' को अर्थ कुन हो?"
+   },
+   "options": [
+    {
+     "en": "座ってください",
+     "ne": "座ってください"
+    },
+    {
+     "en": "立ってください",
+     "ne": "立ってください"
+    },
+    {
+     "en": "寝てください",
+     "ne": "寝てください"
+    },
+    {
+     "en": "食べてください",
+     "ne": "食べてください"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p28",
+   "q": {
+    "en": "What does 毎日 (まいにち) mean?",
+    "ne": "毎日 (まいにち) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Every day",
+     "ne": "हरेक दिन"
+    },
+    {
+     "en": "Tomorrow",
+     "ne": "भोलि"
+    },
+    {
+     "en": "Yesterday",
+     "ne": "हिजो"
+    },
+    {
+     "en": "Sometimes",
+     "ne": "कहिलेकाहीं"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 1
+  },
+  {
+   "id": "p29",
+   "q": {
+    "en": "Choose the past tense of 食べます.",
+    "ne": "食べます को भूतकाल छान्नुहोस्।"
+   },
+   "options": [
+    {
+     "en": "食べました",
+     "ne": "食べました"
+    },
+    {
+     "en": "食べません",
+     "ne": "食べません"
+    },
+    {
+     "en": "食べましょう",
+     "ne": "食べましょう"
+    },
+    {
+     "en": "食べて",
+     "ne": "食べて"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p30",
+   "q": {
+    "en": "What does 気をつけて mean?",
+    "ne": "気をつけて को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Be careful",
+     "ne": "होसियार"
+    },
+    {
+     "en": "Come here",
+     "ne": "यता आउनुहोस्"
+    },
+    {
+     "en": "Hurry up",
+     "ne": "छिटो गर्नुहोस्"
+    },
+    {
+     "en": "Be quiet",
+     "ne": "चुप लाग्नुहोस्"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p31",
+   "q": {
+    "en": "Which particle completes 部屋＿います (I am in the room)?",
+    "ne": "部屋＿います (म कोठामा छु) मा कुन विभक्ति आउँछ?"
+   },
+   "options": [
+    {
+     "en": "に",
+     "ne": "に"
+    },
+    {
+     "en": "を",
+     "ne": "を"
+    },
+    {
+     "en": "へ",
+     "ne": "へ"
+    },
+    {
+     "en": "が",
+     "ne": "が"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p32",
+   "q": {
+    "en": "What does 車いす (くるまいす) mean?",
+    "ne": "車いす (くるまいす) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Car",
+     "ne": "कार"
+    },
+    {
+     "en": "Wheelchair",
+     "ne": "ह्वीलचेयर"
+    },
+    {
+     "en": "Bicycle",
+     "ne": "साइकल"
+    },
+    {
+     "en": "Bed",
+     "ne": "ओछ्यान"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 2
+  },
+  {
+   "id": "p33",
+   "q": {
+    "en": "Which is the humble way to say your name?",
+    "ne": "आफ्नो नाम विनम्र तरिकाले भन्ने कुन हो?"
+   },
+   "options": [
+    {
+     "en": "ラムと申します",
+     "ne": "ラムと申します"
+    },
+    {
+     "en": "ラムだ",
+     "ne": "ラムだ"
+    },
+    {
+     "en": "ラムですか",
+     "ne": "ラムですか"
+    },
+    {
+     "en": "ラムさん",
+     "ne": "ラムさん"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p34",
+   "q": {
+    "en": "What does 大丈夫 (だいじょうぶ) mean?",
+    "ne": "大丈夫 (だいじょうぶ) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "All right / OK",
+     "ne": "ठिक छ"
+    },
+    {
+     "en": "Dangerous",
+     "ne": "खतरनाक"
+    },
+    {
+     "en": "Big",
+     "ne": "ठूलो"
+    },
+    {
+     "en": "Busy",
+     "ne": "व्यस्त"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p35",
+   "q": {
+    "en": "What does 起きます (おきます) mean?",
+    "ne": "起きます (おきます) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "To sleep",
+     "ne": "सुत्नु"
+    },
+    {
+     "en": "To wake up",
+     "ne": "उठ्नु"
+    },
+    {
+     "en": "To sit",
+     "ne": "बस्नु"
+    },
+    {
+     "en": "To wash",
+     "ne": "धुनु"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 2
+  },
+  {
+   "id": "p36",
+   "q": {
+    "en": "Which means 'I don't understand'?",
+    "ne": "'मैले बुझिनँ' को अर्थ कुन हो?"
+   },
+   "options": [
+    {
+     "en": "分かりません",
+     "ne": "分かりません"
+    },
+    {
+     "en": "分かります",
+     "ne": "分かります"
+    },
+    {
+     "en": "分かりました",
+     "ne": "分かりました"
+    },
+    {
+     "en": "分かりましょう",
+     "ne": "分かりましょう"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p37",
+   "q": {
+    "en": "In 雨が降っています, what is happening?",
+    "ne": "雨が降っています मा के भइरहेको छ?"
+   },
+   "options": [
+    {
+     "en": "It is raining",
+     "ne": "पानी परिरहेको छ"
+    },
+    {
+     "en": "It is snowing",
+     "ne": "हिउँ परिरहेको छ"
+    },
+    {
+     "en": "It is sunny",
+     "ne": "घाम लागेको छ"
+    },
+    {
+     "en": "It is windy",
+     "ne": "हावा चलिरहेको छ"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p38",
+   "q": {
+    "en": "What does 歯 (は) mean?",
+    "ne": "歯 (は) को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Hair",
+     "ne": "कपाल"
+    },
+    {
+     "en": "Tooth",
+     "ne": "दाँत"
+    },
+    {
+     "en": "Ear",
+     "ne": "कान"
+    },
+    {
+     "en": "Hand",
+     "ne": "हात"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 1
+  },
+  {
+   "id": "p39",
+   "q": {
+    "en": "Which word means 'yesterday'?",
+    "ne": "'हिजो' को अर्थ कुन शब्द हो?"
+   },
+   "options": [
+    {
+     "en": "きのう",
+     "ne": "きのう"
+    },
+    {
+     "en": "きょう",
+     "ne": "きょう"
+    },
+    {
+     "en": "あした",
+     "ne": "あした"
+    },
+    {
+     "en": "あさって",
+     "ne": "あさって"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p40",
+   "q": {
+    "en": "Which sentence asks 'May I open the window?'",
+    "ne": "'झ्याल खोल्न सक्छु?' भनेर सोध्ने वाक्य कुन हो?"
+   },
+   "options": [
+    {
+     "en": "窓を開けてもいいですか",
+     "ne": "窓を開けてもいいですか"
+    },
+    {
+     "en": "窓を開けてください",
+     "ne": "窓を開けてください"
+    },
+    {
+     "en": "窓を開けません",
+     "ne": "窓を開けません"
+    },
+    {
+     "en": "窓が開きました",
+     "ne": "窓が開きました"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 2
+  },
+  {
+   "id": "p41",
+   "q": {
+    "en": "What does 締め切り mean?",
+    "ne": "締め切り को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Deadline",
+     "ne": "अन्तिम मिति"
+    },
+    {
+     "en": "Meeting",
+     "ne": "बैठक"
+    },
+    {
+     "en": "Holiday",
+     "ne": "बिदा"
+    },
+    {
+     "en": "Salary",
+     "ne": "तलब"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 3
+  },
+  {
+   "id": "p42",
+   "q": {
+    "en": "What does ～ようにする express?",
+    "ne": "～ようにする ले के जनाउँछ?"
+   },
+   "options": [
+    {
+     "en": "Wanting to",
+     "ne": "चाहनु"
+    },
+    {
+     "en": "Trying to / making it a habit",
+     "ne": "प्रयास गर्नु / बानी बसाल्नु"
+    },
+    {
+     "en": "Being able to",
+     "ne": "सक्नु"
+    },
+    {
+     "en": "Having to",
+     "ne": "पर्नु"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 3
+  },
+  {
+   "id": "p43",
+   "q": {
+    "en": "What does 留守 mean?",
+    "ne": "留守 को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Being late",
+     "ne": "ढिला हुनु"
+    },
+    {
+     "en": "Being busy",
+     "ne": "व्यस्त हुनु"
+    },
+    {
+     "en": "Being away from home",
+     "ne": "घरमा नहुनु"
+    },
+    {
+     "en": "Being sick",
+     "ne": "बिरामी हुनु"
+    }
+   ],
+   "answer": 2,
+   "difficulty": 3
+  },
+  {
+   "id": "p44",
+   "q": {
+    "en": "In 薬を飲んだのに、治らない, what does のに show?",
+    "ne": "薬を飲んだのに、治らない मा のに ले के देखाउँछ?"
+   },
+   "options": [
+    {
+     "en": "Purpose",
+     "ne": "उद्देश्य"
+    },
+    {
+     "en": "Time",
+     "ne": "समय"
+    },
+    {
+     "en": "Request",
+     "ne": "अनुरोध"
+    },
+    {
+     "en": "Even though (unexpected result)",
+     "ne": "भए पनि (अनपेक्षित नतिजा)"
+    }
+   ],
+   "answer": 3,
+   "difficulty": 3
+  },
+  {
+   "id": "p45",
+   "q": {
+    "en": "What does 我慢する mean?",
+    "ne": "我慢する को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "To endure",
+     "ne": "सहनु"
+    },
+    {
+     "en": "To forget",
+     "ne": "बिर्सनु"
+    },
+    {
+     "en": "To hurry",
+     "ne": "हतार गर्नु"
+    },
+    {
+     "en": "To praise",
+     "ne": "प्रशंसा गर्नु"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 3
+  },
+  {
+   "id": "p46",
+   "q": {
+    "en": "What does 検討する mean?",
+    "ne": "検討する को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "To repair",
+     "ne": "मर्मत गर्नु"
+    },
+    {
+     "en": "To consider",
+     "ne": "विचार गर्नु"
+    },
+    {
+     "en": "To refuse",
+     "ne": "अस्वीकार गर्नु"
+    },
+    {
+     "en": "To deliver",
+     "ne": "पुर्याउनु"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 4
+  },
+  {
+   "id": "p47",
+   "q": {
+    "en": "What does ～ざるを得ない mean?",
+    "ne": "～ざるを得ない को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Might",
+     "ne": "हुन सक्छ"
+    },
+    {
+     "en": "Want to",
+     "ne": "चाहनु"
+    },
+    {
+     "en": "Have no choice but to",
+     "ne": "गर्नैपर्ने बाध्यता"
+    },
+    {
+     "en": "Must not",
+     "ne": "गर्नु हुँदैन"
+    }
+   ],
+   "answer": 2,
+   "difficulty": 4
+  },
+  {
+   "id": "p48",
+   "q": {
+    "en": "What does ～にもかかわらず mean?",
+    "ne": "～にもかかわらず को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Because of",
+     "ne": "कारणले"
+    },
+    {
+     "en": "In order to",
+     "ne": "का लागि"
+    },
+    {
+     "en": "Instead of",
+     "ne": "को सट्टा"
+    },
+    {
+     "en": "Despite",
+     "ne": "बावजुद"
+    }
+   ],
+   "answer": 3,
+   "difficulty": 4
+  },
+  {
+   "id": "p49",
+   "q": {
+    "en": "What does 把握 mean?",
+    "ne": "把握 को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Grasp / understanding",
+     "ne": "बुझाइ"
+    },
+    {
+     "en": "Handshake",
+     "ne": "हात मिलाउनु"
+    },
+    {
+     "en": "Tax",
+     "ne": "कर"
+    },
+    {
+     "en": "Absence",
+     "ne": "अनुपस्थिति"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 4
+  },
+  {
+   "id": "p50",
+   "q": {
+    "en": "What does 一方 mean at the start of a sentence?",
+    "ne": "वाक्यको सुरुमा 一方 को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Finally",
+     "ne": "अन्त्यमा"
+    },
+    {
+     "en": "On the other hand",
+     "ne": "अर्कोतर्फ"
+    },
+    {
+     "en": "Therefore",
+     "ne": "त्यसैले"
+    },
+    {
+     "en": "For example",
+     "ne": "उदाहरणका लागि"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 4
+  },
+  {
+   "id": "p51",
+   "q": {
+    "en": "What does 懸念 mean?",
+    "ne": "懸念 को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Contract",
+     "ne": "सम्झौता"
+    },
+    {
+     "en": "Reward",
+     "ne": "पुरस्कार"
+    },
+    {
+     "en": "Concern",
+     "ne": "चिन्ता"
+    },
+    {
+     "en": "Celebration",
+     "ne": "उत्सव"
+    }
+   ],
+   "answer": 2,
+   "difficulty": 5
+  },
+  {
+   "id": "p52",
+   "q": {
+    "en": "What does ～を踏まえて mean?",
+    "ne": "～を踏まえて को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Instead of",
+     "ne": "को सट्टा"
+    },
+    {
+     "en": "Except for",
+     "ne": "बाहेक"
+    },
+    {
+     "en": "Regardless of",
+     "ne": "जे भए पनि"
+    },
+    {
+     "en": "Based on",
+     "ne": "आधारमा"
+    }
+   ],
+   "answer": 3,
+   "difficulty": 5
+  },
+  {
+   "id": "p53",
+   "q": {
+    "en": "What does 顕著 mean?",
+    "ne": "顕著 को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Remarkable / striking",
+     "ne": "उल्लेखनीय"
+    },
+    {
+     "en": "Hidden",
+     "ne": "लुकेको"
+    },
+    {
+     "en": "Temporary",
+     "ne": "अस्थायी"
+    },
+    {
+     "en": "Polite",
+     "ne": "नम्र"
+    }
+   ],
+   "answer": 0,
+   "difficulty": 5
+  },
+  {
+   "id": "p54",
+   "q": {
+    "en": "What does ～ずにはいられない mean?",
+    "ne": "～ずにはいられない को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Pretend to do",
+     "ne": "गरेको नाटक गर्नु"
+    },
+    {
+     "en": "Cannot help doing",
+     "ne": "नगरी बस्न नसक्नु"
+    },
+    {
+     "en": "Must not do",
+     "ne": "गर्नु हुँदैन"
+    },
+    {
+     "en": "Don't need to do",
+     "ne": "गर्नु पर्दैन"
+    }
+   ],
+   "answer": 1,
+   "difficulty": 5
+  },
+  {
+   "id": "p55",
+   "q": {
+    "en": "What does 是正 mean?",
+    "ne": "是正 को अर्थ के हो?"
+   },
+   "options": [
+    {
+     "en": "Election",
+     "ne": "निर्वाचन"
+    },
+    {
+     "en": "Inspection",
+     "ne": "निरीक्षण"
+    },
+    {
+     "en": "Correction",
+     "ne": "सुधार"
+    },
+    {
+     "en": "Promotion",
+     "ne": "बढुवा"
+    }
+   ],
+   "answer": 2,
+   "difficulty": 5
+  }
+ ],
+ "mix": {
+  "1": 3,
+  "2": 3,
+  "3": 3,
+  "4": 3,
+  "5": 3
+ }
+}
